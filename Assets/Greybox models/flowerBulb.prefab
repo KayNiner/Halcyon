@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3924600176511659419}
   - component: {fileID: 3924600176511659418}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: flowerBulb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 4218315251724804968, guid: d3e4f45e7fc50c440a025ebcbceed877, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
