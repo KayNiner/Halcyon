@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Greybox models/ButterflyGroupIdle.prefab.meta
 guid: 35751f04a7204ef4c9db8d6733f11e43
+========
+guid: 656cca4447ffcbf4183fc570482527ea
+>>>>>>>> origin/TestZone:Assets/Greybox models/Butterfly_Group_Flying.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
