@@ -1,6 +1,6 @@
 {
     "PreviousScene": "",
-    "TargetScene": "",
+    "TargetScene": "Assets/Scenes/GreyBox.unity",
     "AdditionalReferences": [],
     "SelectedPlatform": 0
 }
