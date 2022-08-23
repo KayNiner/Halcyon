@@ -1,19 +1,11 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 7c37bf7879553cb4da0abc1764c3f005
-=======
-guid: e2651a0fa442c1142a5cbd2e81742019
->>>>>>> Stashed changes
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-<<<<<<< Updated upstream
-    second: Flying
-=======
     second: Take 001
->>>>>>> Stashed changes
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,30 +35,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-<<<<<<< Updated upstream
-      name: Flying
-      takeName: Take 001
-      internalID: 1827226128182048838
-      firstFrame: 0
-      lastFrame: 240
-=======
       name: Take 001
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 0
-      lastFrame: 90
->>>>>>> Stashed changes
+      lastFrame: 240
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-<<<<<<< Updated upstream
-      loopTime: 1
-=======
       loopTime: 0
->>>>>>> Stashed changes
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
