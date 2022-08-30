@@ -1664,13 +1664,18 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1436755485}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
       propertyPath: m_Name
       value: PaleBlue Butterfly
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: d453385425bd47b4f8dfdc8bd0518df5,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f87bd062cc4c1e34a9d6d91de48c5401, type: 2}
     - target: {fileID: -4216859302048453862, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1689,17 +1694,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
@@ -1709,7 +1714,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d453385425bd47b4f8dfdc8bd0518df5,
         type: 3}
@@ -1923,7 +1928,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804851177}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.22725615, y: 1.3804824, z: 0.63996315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1933,8 +1938,8 @@ Transform:
   - {fileID: 1631818761}
   - {fileID: 308546651}
   - {fileID: 890695410}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1436755485}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815445822 stripped
 GameObject:
@@ -2390,13 +2395,18 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1436755485}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
       propertyPath: m_Name
       value: Sunset Butterfly
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 7c172f9da1ba25c42b49ab61bec79861,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f87bd062cc4c1e34a9d6d91de48c5401, type: 2}
     - target: {fileID: -4216859302048453862, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2415,17 +2425,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
@@ -2435,7 +2445,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7c172f9da1ba25c42b49ab61bec79861,
         type: 3}
@@ -2465,13 +2475,18 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1436755485}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
       propertyPath: m_Name
       value: Pink-Blue Butterfly
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 5818466fde08bf147b6e861946432b09,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f87bd062cc4c1e34a9d6d91de48c5401, type: 2}
     - target: {fileID: -4216859302048453862, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2490,7 +2505,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
@@ -2500,7 +2515,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
@@ -2510,7 +2525,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5818466fde08bf147b6e861946432b09,
         type: 3}
@@ -2690,13 +2705,18 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1436755485}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
       propertyPath: m_Name
       value: Maroon-Purplish Butterfly
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 50fe27dc7010ac04bbf78ad7674595af,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f87bd062cc4c1e34a9d6d91de48c5401, type: 2}
     - target: {fileID: -4216859302048453862, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2715,17 +2735,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
@@ -2735,7 +2755,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 50fe27dc7010ac04bbf78ad7674595af,
         type: 3}
@@ -2880,6 +2900,12 @@ Transform:
   - {fileID: 2119685940}
   - {fileID: 1047460281}
   - {fileID: 2121748025}
+  - {fileID: 1053087163}
+  - {fileID: 1061804574}
+  - {fileID: 655343876}
+  - {fileID: 1205766594}
+  - {fileID: 2133097545}
+  - {fileID: 804851178}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3952,7 +3978,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133097544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.22725615, y: 1.3804824, z: 0.63996315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3960,8 +3986,8 @@ Transform:
   - {fileID: 764051068}
   - {fileID: 1113151255}
   - {fileID: 196502269}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1436755485}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2313883735615530384
 PrefabInstance:
