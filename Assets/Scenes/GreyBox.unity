@@ -5241,20 +5241,20 @@ Transform:
   - {fileID: 2128114262}
   - {fileID: 1574226631}
   - {fileID: 1700282410}
+  - {fileID: 1666168786}
   - {fileID: 449079499}
   - {fileID: 1185166505}
   - {fileID: 2120311996}
   - {fileID: 214896087}
   - {fileID: 1330133790}
-  - {fileID: 1666168786}
+  - {fileID: 2133097545}
   - {fileID: 41605804}
   - {fileID: 2313883735615530385}
-  - {fileID: 2133097545}
   - {fileID: 804851178}
   - {fileID: 1710862237}
   - {fileID: 1204003992}
-  - {fileID: 96702251}
   - {fileID: 2133870054}
+  - {fileID: 96702251}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6032,7 +6032,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1436755485}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1669359101 stripped
 GameObject:
@@ -7098,7 +7098,7 @@ Transform:
   - {fileID: 196502269}
   - {fileID: 1111960928}
   m_Father: {fileID: 1436755485}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2133870053
 PrefabInstance:
@@ -7265,17 +7265,17 @@ PrefabInstance:
     - target: {fileID: 4862027481576709172, guid: 656cca4447ffcbf4183fc570482527ea,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4862027481561008556, guid: 656cca4447ffcbf4183fc570482527ea,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4862027481425862792, guid: 656cca4447ffcbf4183fc570482527ea,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4862027480592572484, guid: 656cca4447ffcbf4183fc570482527ea,
         type: 3}
@@ -7285,12 +7285,12 @@ PrefabInstance:
     - target: {fileID: 4862027480068916281, guid: 656cca4447ffcbf4183fc570482527ea,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4862027479785906013, guid: 656cca4447ffcbf4183fc570482527ea,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 656cca4447ffcbf4183fc570482527ea, type: 3}
