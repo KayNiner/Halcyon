@@ -8,6 +8,10 @@ public class FlowerGrowth : MonoBehaviour
     Animator anim;
     bool isBloomed;
 
+    int numberOfParticle;
+
+    [SerializeField]
+    int particleNeeded;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +29,14 @@ public class FlowerGrowth : MonoBehaviour
     {
         Debug.Log(other.name);
 
+        numberOfParticle++;
+        Debug.Log(numberOfParticle);
+
         if (anim.GetBool("isBloom"))
         {
             Debug.Log("Flower is already Bloomed");
         }
-        else
+        if (!anim.GetBool("isBloom") && numberOfParticle > particleNeeded)
         {
             anim.SetBool("isBloom", true);
         }
