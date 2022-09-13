@@ -4760,9 +4760,9 @@ MonoBehaviour:
     LocalEulerAngle: {x: 0, y: 0, z: 0}
     ReticleVisibility: 0
     HideReticleWhenInvalid: 0
-    DefaultReticleDistance: 20
+    DefaultReticleDistance: 0
     GrowTime: 0.1
-    MaxDistance: 20
+    MaxDistance: 0
 --- !u!114 &968107840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5286,9 +5286,9 @@ MonoBehaviour:
     LocalEulerAngle: {x: 0, y: 0, z: 0}
     ReticleVisibility: 0
     HideReticleWhenInvalid: 0
-    DefaultReticleDistance: 20
+    DefaultReticleDistance: 0
     GrowTime: 0.1
-    MaxDistance: 20
+    MaxDistance: 0
 --- !u!114 &1089474891
 MonoBehaviour:
   m_ObjectHideFlags: 0
