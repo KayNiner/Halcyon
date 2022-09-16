@@ -31,7 +31,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_ExternalObjects.Array.data[0].second
     value: 
-    objectReference: {fileID: 2100000, guid: c1181d20814fd40e8be2b9e3abcbcb42, type: 2}
+    objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImportMaterials
     value: 1
@@ -178,7 +178,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: generateSecondaryUV
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_UseFileUnits
