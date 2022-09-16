@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Greybox models/Enviroment/Materials.meta
-guid: ba5e293ddf4a84da79abd6e3a871a79d
-========
-guid: 35cfdcf075c321b459640cc0513d92d9
->>>>>>>> Test-Zone:Assets/Textures.meta
+guid: 23aec524d1fb2493eb8777d69e104dc9
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
