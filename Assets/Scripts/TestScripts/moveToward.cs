@@ -6,43 +6,48 @@ public class moveToward : MonoBehaviour
 {
     [SerializeField]
     List<Transform> movePos;
-    int posIndenx;
+    int posIndex;
     [SerializeField]
     float moveSpeed;
-
-
-    void Awaken()
-    {
-        
-
-    }   
+    bool isColliding;
     // Start is called before the first frame update
     void Start()
     {
-        posIndenx = 0;
-        transform.position = movePos[posIndenx].position;
+        posIndex = 0;
+        transform.position = movePos[posIndex].position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 pos1 = movePos[posIndenx].position;
-        Vector3 pos2 = movePos[posIndenx+1].position;
-        transform.position = Vector3.MoveTowards(pos1, pos2, moveSpeed*Time.time);
-        Debug.Log(posIndenx);
-
+        isColliding = false;
+        if (posIndex < movePos.Count)
+        {
+            Vector3 pos1 = movePos[posIndex].position;
+            Vector3 pos2 = movePos[posIndex + 1].position;
+            transform.position = Vector3.MoveTowards(pos1, pos2, moveSpeed * Time.time);
+            Debug.Log(posIndex);
+        }
+        else
+            return;
     }
     
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag =="Node")
+        if (isColliding) return;
+
+        else
         {
-            Debug.Log("hit");
-            posIndenx= posIndenx +1;
-            
-            other.gameObject.GetComponent<Collider>().enabled = false;  
+            isColliding = true;
+            if (other.gameObject.CompareTag("Node"))
+            {
+                Debug.Log(isColliding.ToString());
+                Debug.Log("hit");
+                posIndex++;
+
+                other.gameObject.GetComponent<Collider>().enabled = false;
+            }
         }
-        
 
     }
    
