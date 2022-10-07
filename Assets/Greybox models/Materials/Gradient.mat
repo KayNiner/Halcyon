@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Gradient
-  m_Shader: {fileID: 4800000, guid: 7a11eaf044043244a840e241583331a2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7a1a8a7f3475c724b982cf72f3a069d8, type: 3}
   m_ShaderKeywords: _OUTLINE_ALPHA_WIDTH_ON _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AdditiveRamp:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e9b2e3debb91f8a4581576bf71b2bf99, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -96,7 +96,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ramp:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e9b2e3debb91f8a4581576bf71b2bf99, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampB:
