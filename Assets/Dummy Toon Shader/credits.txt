@@ -1,0 +1,22 @@
+Shader created from scratch by Hugo Zink
+Rokk#8740
+
+Thanks to:
+- ImLeXz, for creating most of the toon ramps, and for figuring out the ramp tinting mechanic
+
+- Neitri, for creating some toon ramps and figuring out how to get the light direction from baked lights
+https://github.com/netri/Neitri-Unity-Shaders
+
+- Silent, for explaining how to treat baked lighting like any other lighting (and for creating an excellent toon shader)
+https://gitlab.com/s-ilent/SCSS
+
+- Xiexe, for explaining how to sample matcaps in a VR-friendly way
+https://github.com/Xiexe/Xiexes-Unity-Shaders
+
+- d4rkpl4y3r, for explaining how to anti-alias toon ramp textures
+
+- Jasper Flick (Catlike Coding) for creating excellent tutorials on writing your own shaders, and making this shader possible
+https://catlikecoding.com/unity/tutorials/rendering/
+
+- Kaj for creating an amazing shader optimizer, you should definitely install it and give it a try!
+https://github.com/DarthShader/Kaj-Unity-Shaders
