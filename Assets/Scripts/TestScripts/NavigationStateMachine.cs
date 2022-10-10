@@ -21,7 +21,7 @@ public class NavigationStateMachine : MonoBehaviour
     //Awake
     private void Awake()
     {
-        currentState = STATES.IDLE;
+        currentState = STATES.FLYING;
     }
 
     private void Start()
