@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Greybox models/Planets.meta
 guid: fdc72b8bee0d60c4cbb060fbd8a5ca84
-=======
-<<<<<<<< HEAD:Assets/Shader Forge/Assets/ShaderForge/Example Assets/JC imports.meta
-guid: f96636b82bd48774990352529adeab01
-========
-guid: 356d2189004fe5348801e72b6c1f8861
->>>>>>>> master:Assets/Dummy Toon Shader.meta
->>>>>>> parent of d8a4e80 (toon shader changes?):Assets/Dummy Toon Shader.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
