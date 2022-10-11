@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Shader Forge/Assets/ShaderForge/Example Assets/JC imports/Includes.meta
-guid: 43a854b437e43dc4a849d5a725d5300f
-========
-guid: 1398eacce80f9264c9fd6c1871c00903
->>>>>>>> master:Assets/Dummy Toon Shader/Addons.meta
+guid: fdefe56d3c7a8de46b96f2d5c5cfb153
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
