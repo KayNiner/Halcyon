@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Greybox models/Final_Model_Prefabs.meta
 guid: a2a16d66bada13f4787c52d688dcb630
+========
+guid: 6c986d32c75b2264b92ef2a5d943bd3f
+>>>>>>>> master:Assets/Greybox models/Materials/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
