@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Gradient
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _OUTLINE_ALPHA_WIDTH_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AdditiveRamp:
+        m_Texture: {fileID: 2800000, guid: d2d340836723d5b489d2c22a17657a6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -39,8 +43,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _HueShiftMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 890be6efd51749742a4d6c7bd395ade2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTintTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -51,27 +67,142 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: d2d340836723d5b489d2c22a17657a6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AdditiveRampMode: 0
+    - _AlphaToCoverage: 0
+    - _AlphaToCoverageCutoff: 0.5
     - _BumpScale: 1
+    - _Cull: 0
     - _Cutoff: 0.5
+    - _CutoutEnabled: 0
+    - _DebugEnabled: 1
+    - _DebugMaxLightBrightness: 2
+    - _DebugMinLightBrightness: 0
+    - _DebugNormals: 0
+    - _DebugOptionsEnabled: 0
+    - _DebugUVs: 0
     - _DetailNormalMapScale: 1
+    - _DirectLightBoost: 1
     - _DstBlend: 0
+    - _EmissionMapIsTint: 0
+    - _EmissionPremultiply: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
+    - _HueShiftAmount: 0
+    - _HueShiftAmountOverTime: 0
+    - _HueShiftEnabled: 0
+    - _IndirectLightBoost: 1
+    - _IndirectLightDirMergeMax: 0.75
+    - _IndirectLightDirMergeMin: 0.65
+    - _Intensity: 1.3
+    - _IntensityB: 1.3
+    - _IntensityG: 1.3
+    - _IntensityR: 1.3
+    - _MatCapMode: 0
+    - _MatCapOrigin: 0
+    - _MatCapStrength: 1
     - _Metallic: 0.476
+    - _MetallicMode: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _OutlineAlphaWidthEnabled: 1
+    - _OutlineStencilComp: 8
+    - _OutlineWidth: 2
+    - _OverrideWorldLightDir: 0
     - _Parallax: 0.02
+    - _RampAntiAliasingEnabled: 0
+    - _RampMaskEnabled: 0
+    - _RampTinting: 0
+    - _RimInvert: 0
+    - _RimLightMode: 0
+    - _RimWidth: 0.75
+    - _Saturation: 1
+    - _SaturationB: 1
+    - _SaturationG: 1
+    - _SaturationR: 1
+    - _ScreenSpaceMaxDist: 100
+    - _ScreenSpaceMinDist: 0
+    - _ScreenSpaceOutline: 0
+    - _ShaderOptimized: 0
     - _SmoothnessTextureChannel: 0
+    - _SpecularEnabled: 0
     - _SpecularHighlights: 1
+    - _SpecularIndirectBoost: 1
+    - _SpecularMode: 1
+    - _SpecularToonyCutoff: 0.5
+    - _SpecularToonyEnabled: 0
     - _SrcBlend: 1
+    - _StencilCompareFunction: 8
+    - _StencilFailOp: 0
+    - _StencilPassOp: 0
+    - _StencilRef: 0
+    - _StencilWriteAction: 0
+    - _StencilZFailOp: 0
+    - _ToonContrast: 0.5
+    - _ToonContrastB: 0.5
+    - _ToonContrastG: 0.5
+    - _ToonContrastR: 0.5
+    - _ToonRampOffset: 0
+    - _ToonRampOffsetB: 0
+    - _ToonRampOffsetG: 0
+    - _ToonRampOffsetR: 0
     - _UVSec: 0
+    - _VertexOffsetEnabled: 0
+    - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DebugUVsOffset: {r: -0.5, g: -0.5, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LightDirectionNudge: {r: 1, g: 1, b: 1, a: 1}
+    - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 0.4}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StaticToonLight: {r: 0, g: 1, b: 0, a: 0}
+    - _VertexOffsetPos: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetPosWorld: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetRot: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetScale: {r: 1, g: 1, b: 1, a: 0}

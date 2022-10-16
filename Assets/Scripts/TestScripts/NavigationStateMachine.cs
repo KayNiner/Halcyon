@@ -13,9 +13,13 @@ public class NavigationStateMachine : MonoBehaviour
     public Transform target;
 
     public float sightRadius;
+    public Animator anim;
+    bool isFlying;
 
     //target location nodes
-    [SerializeField] Transform[] nodes;
+    [SerializeField] Transform[] idleNodes;
+
+    [SerializeField] Transform[] flyingNodes;
     int currentNode = 0;
 
     //Awake
@@ -26,8 +30,10 @@ public class NavigationStateMachine : MonoBehaviour
 
     private void Start()
     {
+        anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(butterflyFSM());
+
     }
 
     #region State Machine Coroutines
@@ -43,19 +49,26 @@ public class NavigationStateMachine : MonoBehaviour
     {
         //Enter the state: run behaviour on state start here
         Debug.Log("IDLE");
+        isFlying = false;
         int idleTime = 0;
+        
 
         //Execute State: run the main behaviour
         while(currentState == STATES.IDLE)
         {
-            yield return new WaitForSeconds(1);
-            idleTime += 1;
+            agent.SetDestination(idleNodes[0].position);
+        
 
-        }
-        if (idleTime >= 1) 
-        {
+            yield return new WaitForEndOfFrame();
+            anim.SetBool("isFlying", false);
+            yield return new WaitForSeconds(20);
+            idleTime += 1;
+            
             currentState = STATES.FLYING;
         }
+        
+        
+        
 
         //Exit states
         Debug.Log("Start Flying");
@@ -66,15 +79,15 @@ public class NavigationStateMachine : MonoBehaviour
     {
         //Enter the state: run behaviour on state start here
         Debug.Log("FLYING");
-        
+        anim.SetBool("isFlying", true);
 
         //Execute State: run the main behaviour
         while (currentState == STATES.FLYING)
         {
-            agent.SetDestination(nodes[currentNode].position);
+            agent.SetDestination(flyingNodes[currentNode].position);
             if(!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance )
             {
-                currentNode = (currentNode + 1) % nodes.Length;
+                currentNode = (currentNode + 1) % flyingNodes.Length;
             }
             yield return new WaitForEndOfFrame();
         }

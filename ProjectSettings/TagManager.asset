@@ -8,6 +8,7 @@ TagManager:
   - projectile
   - path
   - Node
+  - idleNode
   layers:
   - Default
   - TransparentFX
