@@ -26,6 +26,7 @@ public class NavigationStateMachine : MonoBehaviour
     private void Awake()
     {
         currentState = STATES.FLYING;
+        currentNode = Random.Range(0, flyingNodes.Length);
     }
 
     private void Start()
@@ -80,6 +81,7 @@ public class NavigationStateMachine : MonoBehaviour
         //Enter the state: run behaviour on state start here
         Debug.Log("FLYING");
         anim.SetBool("isFlying", true);
+        
 
         //Execute State: run the main behaviour
         while (currentState == STATES.FLYING)
@@ -87,7 +89,8 @@ public class NavigationStateMachine : MonoBehaviour
             agent.SetDestination(flyingNodes[currentNode].position);
             if(!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance )
             {
-                currentNode = (currentNode + 1) % flyingNodes.Length;
+                currentNode = Random.Range(0, flyingNodes.Length);
+                //currentNode = (currentNode + 1) % flyingNodes.Length;
             }
             yield return new WaitForEndOfFrame();
         }
