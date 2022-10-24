@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Greybox models/FlowerAnimator.meta
-guid: 45a5d892005d9544a80ce7c03148cef8
-========
-guid: aeed2c2a1d669254c8346915052cbb37
->>>>>>>> master:Assets/Dummy Toon Shader/Shaders.meta
+guid: 9e7693b0033beae4aa971e4689c89363
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

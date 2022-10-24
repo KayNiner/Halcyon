@@ -1,12 +1,7 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Prefabs/Flower/RoundedFlowerAnimated.prefab.meta
-guid: d34bd30e47c76044fa9f38ebfb0e0c2d
-PrefabImporter:
-========
-guid: 20f1865910cb4474c9a46c890891e9d5
+guid: 2c6b042ebaafe0645addcf16efcfd62d
 folderAsset: yes
 DefaultImporter:
->>>>>>>> master:Assets/ShaderForge.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Prefabs/Flower.meta
-guid: f66b4011b4044c24b922ddf2badbcec8
-========
-guid: 7364d9c93fbc9f54b8e23c6e5f909f82
->>>>>>>> master:Assets/Greybox models/UI Elements.meta
+guid: 07bf00a82c0be8046b24f50a6f167e38
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
