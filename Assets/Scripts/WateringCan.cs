@@ -12,7 +12,8 @@ public class WateringCan : MonoBehaviour
     private AudioSource sprayAudio;
     private float nextSpray;
     public ParticleSystem spray;
-    
+    public bool playOnAwake = false;
+
     // Start is called before the first frame update
     void Start()
     {
