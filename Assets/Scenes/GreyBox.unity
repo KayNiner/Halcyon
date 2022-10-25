@@ -4242,12 +4242,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24b658f617733c3469dd8223893df349, type: 3}
---- !u!198 &605420837 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
-    type: 3}
-  m_PrefabInstance: {fileID: 605420836}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &607321537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f618a8f0249e0b84493f3d73258d34ba,
@@ -9319,10 +9313,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2613207b2f6a07d4eb1970b3b498a729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterDamage: 30
+  waterDamage: 1
   sprayRate: 1
   sprayRange: 0
-  spray: {fileID: 605420837}
+  spray: {fileID: 1589412096}
 --- !u!199 &1589412095
 ParticleSystemRenderer:
   serializedVersion: 6
