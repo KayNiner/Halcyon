@@ -2926,6 +2926,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_AnchorAttachments.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_AnchorAttachments.Array.data[0]
+      value: 
+      objectReference: {fileID: 1157749241}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_AnchorAttachments.Array.data[1]
+      value: 
+      objectReference: {fileID: 968107838}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22276a8657744e04cba8ad0a2caf4195, type: 3}
 --- !u!4 &452536857 stripped
@@ -4199,6 +4214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ShapeModule.angle
       value: 82
+      objectReference: {fileID: 0}
+    - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 82172062040567573, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
@@ -7298,7 +7318,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -11956,6 +11976,7 @@ MonoBehaviour:
   sprayRate: 1
   sprayRange: 0
   spray: {fileID: 1157749243}
+  playOnAwake: 0
 --- !u!1001 &1163309918
 PrefabInstance:
   m_ObjectHideFlags: 0
