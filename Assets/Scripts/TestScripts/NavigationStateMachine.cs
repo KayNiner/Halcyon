@@ -19,14 +19,20 @@ public class NavigationStateMachine : MonoBehaviour
     //target location nodes
     [SerializeField] Transform[] idleNodes;
 
-    [SerializeField] Transform[] flyingNodes;
+    //[SerializeField] Transform[] flyingNodes;
     int currentNode = 0;
+
+    [SerializeField] GameObject nodeHolder;
+    [SerializeField] List<Transform> flyingNodes = new List<Transform>();
+
 
     //Awake
     private void Awake()
     {
         currentState = STATES.FLYING;
-        currentNode = Random.Range(0, flyingNodes.Length);
+        currentNode = Random.Range(0, flyingNodes.Count);
+        
+
     }
 
     private void Start()
@@ -34,7 +40,11 @@ public class NavigationStateMachine : MonoBehaviour
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(butterflyFSM());
-
+        nodeHolder = GameObject.Find("WavyGround");
+        foreach (Transform t in nodeHolder.transform)
+        {
+            flyingNodes.Add(t);
+        }
     }
 
     #region State Machine Coroutines
@@ -89,7 +99,7 @@ public class NavigationStateMachine : MonoBehaviour
             agent.SetDestination(flyingNodes[currentNode].position);
             if(!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance )
             {
-                currentNode = Random.Range(0, flyingNodes.Length);
+                currentNode = Random.Range(0, flyingNodes.Count);
                 //currentNode = (currentNode + 1) % flyingNodes.Length;
             }
             yield return new WaitForEndOfFrame();

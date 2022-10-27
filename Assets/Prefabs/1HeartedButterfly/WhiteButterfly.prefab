@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 8493762636837986784}
   - component: {fileID: 3505309947120337634}
   - component: {fileID: 3505309947120337635}
+  - component: {fileID: 6273021081205540640}
   m_Layer: 0
   m_Name: WhiteButterfly
   m_TagString: Untagged
@@ -100,6 +101,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   offset: 0
+--- !u!114 &6273021081205540640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4865208957815247859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a473b3a51692142aa249bcb79083cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 1
+  target: {fileID: 0}
+  sightRadius: 0
+  anim: {fileID: 0}
+  idleNodes: []
+  flyingNodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &5303937561202064869
 GameObject:
   m_ObjectHideFlags: 0

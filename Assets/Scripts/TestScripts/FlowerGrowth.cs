@@ -8,7 +8,12 @@ public class FlowerGrowth : MonoBehaviour
     Animator anim;
     bool isBloomed;
 
+    [SerializeField]
+    GameObject[] butteflies;
+    int butterflyIndex;
+
     int numberOfParticle;
+    
 
     [SerializeField]
     int particleNeeded;
@@ -23,6 +28,7 @@ public class FlowerGrowth : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         isBloomed = false;
+        
     }
 
     void OnParticleCollision(GameObject other)
@@ -35,11 +41,20 @@ public class FlowerGrowth : MonoBehaviour
         if (anim.GetBool("isBloom"))
         {
             Debug.Log("Flower is already Bloomed");
+            Invoke("ButterflySpawn", 2f);
         }
         if (!anim.GetBool("isBloom") && numberOfParticle > particleNeeded)
         {
             anim.SetBool("isBloom", true);
+            //Instantiate(butteflies[Random.Range(0, butteflies.Length)]);
+            Invoke("ButterflySpawn", 2f);
         }
+        
 
+    }
+
+    void ButterflySpawn()
+    {
+        Instantiate(butteflies[1], gameObject.transform);
     }
 }
