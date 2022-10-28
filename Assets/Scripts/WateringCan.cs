@@ -10,13 +10,13 @@ public class WateringCan : MonoBehaviour
 
     private WaitForSeconds sprayDuration = new WaitForSeconds(1.0f);
     private AudioSource sprayAudio;
-    private LineRenderer sprayLine;
     private float nextSpray;
+    public ParticleSystem spray;
     
     // Start is called before the first frame update
     void Start()
     {
-        sprayLine = GetComponent<LineRenderer>();
+        spray = GetComponent<ParticleSystem>();
         sprayAudio = GetComponent<AudioSource>();
 
     }
@@ -24,6 +24,10 @@ public class WateringCan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            spray.Play();
+            
+        }
     }
 }
