@@ -4134,6 +4134,11 @@ PrefabInstance:
       propertyPath: ShapeModule.angle
       value: 82
       objectReference: {fileID: 0}
+    - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 82172062040567573, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
       propertyPath: m_RenderMode
@@ -7232,7 +7237,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
