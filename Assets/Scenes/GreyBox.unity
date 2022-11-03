@@ -388,6 +388,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -458,11 +463,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!1 &73787766 stripped
@@ -490,8 +490,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 743563497}
-  orbit: 12
-  spin: 12
+  orbit: 0.5
+  spin: 0.5
 --- !u!1001 &91555840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1215,6 +1215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1285,11 +1290,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!1 &215531255
@@ -1783,6 +1783,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2133097545}
     m_Modifications:
+    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: m_Name
+      value: PinkFlower (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: butteflies.Array.data[0]
@@ -1803,11 +1808,6 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 60377353}
-    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
-        type: 3}
-      propertyPath: m_Name
-      value: PinkFlower (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 8831870695396896508, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3898,6 +3898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3968,11 +3973,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!1001 &721173452
@@ -4174,8 +4174,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 241825583}
-  orbit: 8
-  spin: 8
+  orbit: 0.25
+  spin: 0.25
 --- !u!1001 &761331670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4538,6 +4538,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4608,11 +4613,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!4 &887810207 stripped
@@ -5850,8 +5850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 241825583}
-  orbit: 10
-  spin: 10
+  orbit: 0.25
+  spin: 0.25
 --- !u!1 &1114071901
 GameObject:
   m_ObjectHideFlags: 0
@@ -11808,6 +11808,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11878,11 +11883,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!1001 &1469200908
@@ -12965,6 +12965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13035,11 +13040,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!1001 &1737975988
@@ -13049,11 +13049,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2070285465}
     m_Modifications:
-    - target: {fileID: 3166611327534377840, guid: 30ce165f44d54754080a3d90642d2378,
-        type: 3}
-      propertyPath: m_Name
-      value: MagentaButterfly
-      objectReference: {fileID: 0}
     - target: {fileID: 2137320730910316899, guid: 30ce165f44d54754080a3d90642d2378,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13108,6 +13103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3166611327534377840, guid: 30ce165f44d54754080a3d90642d2378,
+        type: 3}
+      propertyPath: m_Name
+      value: MagentaButterfly
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30ce165f44d54754080a3d90642d2378, type: 3}
@@ -14110,6 +14110,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2133097545}
     m_Modifications:
+    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: m_Name
+      value: PinkFlower (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: butteflies.Array.data[0]
@@ -14134,11 +14139,6 @@ PrefabInstance:
         type: 3}
       propertyPath: particleNeeded
       value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
-        type: 3}
-      propertyPath: m_Name
-      value: PinkFlower (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8831870695396896508, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
@@ -14283,6 +14283,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14353,11 +14358,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!1 &2049210978
@@ -14961,11 +14961,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276227647}
     m_Modifications:
-    - target: {fileID: -4714100418822361621, guid: 2c89c361894acd0468a314468556dbbb,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6082923248947273961, guid: 2c89c361894acd0468a314468556dbbb,
         type: 3}
       propertyPath: m_Name
@@ -15031,6 +15026,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4714100418822361621, guid: 2c89c361894acd0468a314468556dbbb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c89c361894acd0468a314468556dbbb, type: 3}
 --- !u!33 &336662741884772798
@@ -15066,6 +15066,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2133097545}
     m_Modifications:
+    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: m_Name
+      value: PinkFlower
+      objectReference: {fileID: 0}
     - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: butterflies.Array.size
@@ -15091,11 +15096,6 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 1157747859}
-    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
-        type: 3}
-      propertyPath: m_Name
-      value: PinkFlower
-      objectReference: {fileID: 0}
     - target: {fileID: 8831870695396896508, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15202,11 +15202,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276227647}
     m_Modifications:
-    - target: {fileID: -2507513525689312885, guid: 5f5d5af7589ada344a8838bcf0495c45,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3916823887354173863, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
       propertyPath: m_Name
@@ -15257,6 +15252,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2507513525689312885, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -15413,11 +15413,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276227647}
     m_Modifications:
-    - target: {fileID: 9199805864909664263, guid: a5ba737080bf760419cbf31deb19e71e,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6541003344216147965, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
       propertyPath: m_Name
@@ -15479,6 +15474,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199805864909664263, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -15710,6 +15710,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot
       objectReference: {fileID: 0}
+    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15780,11 +15785,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 6380255335430867849, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7617ae11ee7334a9a19a8997d79ee7, type: 3}
 --- !u!1001 &8906481085323233780
@@ -15794,11 +15794,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1276227647}
     m_Modifications:
-    - target: {fileID: -2883237275435401005, guid: 42fcb19f912f407418907e9fdfe98722,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5889327021626962273, guid: 42fcb19f912f407418907e9fdfe98722,
         type: 3}
       propertyPath: m_Name
@@ -15860,6 +15855,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1981509281641037754, guid: 42fcb19f912f407418907e9fdfe98722,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2883237275435401005, guid: 42fcb19f912f407418907e9fdfe98722,
         type: 3}
       propertyPath: m_Enabled
       value: 0
