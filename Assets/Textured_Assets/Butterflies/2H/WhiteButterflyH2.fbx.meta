@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: dfafaf0dd021e1e4883d434828c2f23f
+guid: f89838878c4d356469f2d28cb6a50d83
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
-    second: FlowerBloom
+    second: Take 001
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Gradient
-    second: {fileID: 2100000, guid: f87fea3e73d7c6747905994d3b4af903, type: 2}
+    second: {fileID: 2100000, guid: cd0e53c1220d39e419378c9b7c4b81b0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -40,11 +40,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: FlowerBloom
+      name: Take 001
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 0
-      lastFrame: 142
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -105,7 +105,7 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -118,11 +118,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: Body
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: f6d9528d904c41642b5ac982effce963,
+    type: 3}
   animationType: 2
   humanoidOversampling: 1
   additionalBone: 0

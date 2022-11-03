@@ -20,17 +20,18 @@ public class NavigationStateMachine : MonoBehaviour
     [SerializeField] Transform[] idleNodes;
 
     //[SerializeField] Transform[] flyingNodes;
-    int currentNode = 0;
+    [SerializeField] int currentNode = 0;
 
     [SerializeField] GameObject nodeHolder;
     [SerializeField] List<Transform> flyingNodes = new List<Transform>();
+    
 
 
     //Awake
     private void Awake()
     {
         currentState = STATES.FLYING;
-        currentNode = Random.Range(0, flyingNodes.Count);
+        
         
 
     }
@@ -45,6 +46,7 @@ public class NavigationStateMachine : MonoBehaviour
         {
             flyingNodes.Add(t);
         }
+        currentNode = Random.Range(0, flyingNodes.Count);
     }
 
     #region State Machine Coroutines

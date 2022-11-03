@@ -126,11 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 6170000747777541366}
-  butteflies:
-  - {fileID: 6660098823558387429, guid: e261ad293e2338a42bfb27fd7158aa92, type: 3}
-  - {fileID: 4865208957815247859, guid: ff2d3c847c2314e47bc9384a01fc209d, type: 3}
-  - {fileID: 8216613226123736651, guid: 9f2239f62fe40e64090f80c9816d5ae9, type: 3}
-  - {fileID: 3166611327534377840, guid: 30ce165f44d54754080a3d90642d2378, type: 3}
+  butterflies:
+  - {fileID: 0}
+  - {fileID: 0}
   particleNeeded: 0
 --- !u!1 &1784954159646552249
 GameObject:
@@ -330,7 +328,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4000388692435999257, guid: dfafaf0dd021e1e4883d434828c2f23f, type: 3}
+  - {fileID: 2100000, guid: 2219fe3bddf927d4f80e0b1b8df79ee9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
