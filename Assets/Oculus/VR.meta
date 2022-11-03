@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Oculus/VR.meta
 guid: 60ecbf88d741a7b459ad2260c585d7a1
-========
-guid: e8457b9869677a74a8217d52c90a76ab
->>>>>>>> master:Assets/Oculus.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
