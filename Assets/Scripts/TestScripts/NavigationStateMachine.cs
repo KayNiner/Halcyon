@@ -13,40 +13,21 @@ public class NavigationStateMachine : MonoBehaviour
     public Transform target;
 
     public float sightRadius;
-    public Animator anim;
-    bool isFlying;
 
     //target location nodes
-    [SerializeField] Transform[] idleNodes;
-
-    //[SerializeField] Transform[] flyingNodes;
-    [SerializeField] int currentNode = 0;
-
-    [SerializeField] GameObject nodeHolder;
-    [SerializeField] List<Transform> flyingNodes = new List<Transform>();
-    
-
+    [SerializeField] Transform[] nodes;
+    int currentNode = 0;
 
     //Awake
     private void Awake()
     {
         currentState = STATES.FLYING;
-        
-        
-
     }
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(butterflyFSM());
-        nodeHolder = GameObject.Find("WavyGround");
-        foreach (Transform t in nodeHolder.transform)
-        {
-            flyingNodes.Add(t);
-        }
-        currentNode = Random.Range(0, flyingNodes.Count);
     }
 
     #region State Machine Coroutines
@@ -62,26 +43,19 @@ public class NavigationStateMachine : MonoBehaviour
     {
         //Enter the state: run behaviour on state start here
         Debug.Log("IDLE");
-        isFlying = false;
         int idleTime = 0;
-        
 
         //Execute State: run the main behaviour
         while(currentState == STATES.IDLE)
         {
-            agent.SetDestination(idleNodes[0].position);
-        
-
-            yield return new WaitForEndOfFrame();
-            anim.SetBool("isFlying", false);
-            yield return new WaitForSeconds(20);
+            yield return new WaitForSeconds(1);
             idleTime += 1;
-            
+
+        }
+        if (idleTime >= 1) 
+        {
             currentState = STATES.FLYING;
         }
-        
-        
-        
 
         //Exit states
         Debug.Log("Start Flying");
@@ -92,17 +66,15 @@ public class NavigationStateMachine : MonoBehaviour
     {
         //Enter the state: run behaviour on state start here
         Debug.Log("FLYING");
-        anim.SetBool("isFlying", true);
         
 
         //Execute State: run the main behaviour
         while (currentState == STATES.FLYING)
         {
-            agent.SetDestination(flyingNodes[currentNode].position);
+            agent.SetDestination(nodes[currentNode].position);
             if(!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance )
             {
-                currentNode = Random.Range(0, flyingNodes.Count);
-                //currentNode = (currentNode + 1) % flyingNodes.Length;
+                currentNode = (currentNode + 1) % nodes.Length;
             }
             yield return new WaitForEndOfFrame();
         }
