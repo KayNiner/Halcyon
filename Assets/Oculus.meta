@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Oculus.meta
 guid: e8457b9869677a74a8217d52c90a76ab
+========
+guid: 38ddf2b75afadc44d8d36bac02fabdd0
+>>>>>>>> master:Assets/Greybox models/Vines texured.fbm/Materials.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
