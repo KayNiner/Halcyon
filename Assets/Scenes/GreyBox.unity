@@ -11503,17 +11503,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: c8d60eab779c45742af3630fddf7f24f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.0733
+      value: 3.7027118
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c8d60eab779c45742af3630fddf7f24f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.0733
+      value: 3.7027118
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c8d60eab779c45742af3630fddf7f24f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.0733
+      value: 3.7027118
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: c8d60eab779c45742af3630fddf7f24f,
         type: 3}
@@ -15137,17 +15137,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d4438b8d171a76a4db6396c846812d36,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.1109757
+      value: 6.9915366
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d4438b8d171a76a4db6396c846812d36,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.1109757
+      value: 6.9915366
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d4438b8d171a76a4db6396c846812d36,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.1109757
+      value: 6.9915366
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: d4438b8d171a76a4db6396c846812d36,
         type: 3}
@@ -15624,7 +15624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1001 &6026292470869039202
 PrefabInstance:
   m_ObjectHideFlags: 0
