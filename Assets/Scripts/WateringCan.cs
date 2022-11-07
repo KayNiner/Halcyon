@@ -26,7 +26,7 @@ public class WateringCan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(VRButton.One))
+        if (Input.GetButtonDown(VRButton.One))
         {
             spray.Play();
             
