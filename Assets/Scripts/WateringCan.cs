@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Liminal.SDK.VR.Input;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,7 +26,7 @@ public class WateringCan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(VRButton.One))
         {
             spray.Play();
             
