@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class WateringCan : MonoBehaviour
 {
+    
     public int waterDamage = 30;
     public float sprayRate = 1.0f;
     public float sprayRange ;
