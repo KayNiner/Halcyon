@@ -327,6 +327,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 1748017517}
+    - target: {fileID: 3413639994402126996, guid: 20731fad34f4f9940a725be4fab876d5,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 182556990632988426, guid: 20731fad34f4f9940a725be4fab876d5,
         type: 3}
       propertyPath: m_RootOrder
@@ -584,6 +589,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[0]
       value: 
       objectReference: {fileID: 239735603}
+    - target: {fileID: 2974690601483109883, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4756133981839347901, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
         type: 3}
       propertyPath: m_RootOrder
@@ -1844,6 +1854,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 60377353}
+    - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8831870695396896508, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4464,6 +4479,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[0]
       value: 
       objectReference: {fileID: 260042277}
+    - target: {fileID: 2974690601483109883, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4756133981839347901, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
         type: 3}
       propertyPath: m_RootOrder
@@ -10800,6 +10820,7 @@ MonoBehaviour:
   sprayRate: 1
   sprayRange: 0
   spray: {fileID: 1157749243}
+  playOnAwake: 0
 --- !u!1 &1165189029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8198796605982568419, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
@@ -13634,6 +13655,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 936343805}
+    - target: {fileID: 4744328440032749378, guid: 2937b384a3947e94db18ded41d8f6ba6,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2331632925440753445, guid: 2937b384a3947e94db18ded41d8f6ba6,
         type: 3}
       propertyPath: m_RootOrder
@@ -13734,6 +13760,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 1759286089}
+    - target: {fileID: 4744328440032749378, guid: 2937b384a3947e94db18ded41d8f6ba6,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2331632925440753445, guid: 2937b384a3947e94db18ded41d8f6ba6,
         type: 3}
       propertyPath: m_RootOrder
@@ -14563,7 +14594,7 @@ PrefabInstance:
     - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: particleNeeded
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8831870695396896508, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
@@ -15694,6 +15725,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 1157747859}
+    - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 8831870695396896508, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16007,6 +16043,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 1165189029}
+    - target: {fileID: 2974690601483109883, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4756133981839347901, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
         type: 3}
       propertyPath: m_RootOrder
@@ -16180,6 +16221,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 2116838334}
+    - target: {fileID: 4744328440032749378, guid: 2937b384a3947e94db18ded41d8f6ba6,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 2331632925440753445, guid: 2937b384a3947e94db18ded41d8f6ba6,
         type: 3}
       propertyPath: m_RootOrder
@@ -16274,6 +16320,11 @@ PrefabInstance:
       propertyPath: butterflies.Array.data[1]
       value: 
       objectReference: {fileID: 835184534}
+    - target: {fileID: 3413639994402126996, guid: 20731fad34f4f9940a725be4fab876d5,
+        type: 3}
+      propertyPath: particleNeeded
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 182556990632988426, guid: 20731fad34f4f9940a725be4fab876d5,
         type: 3}
       propertyPath: m_RootOrder
