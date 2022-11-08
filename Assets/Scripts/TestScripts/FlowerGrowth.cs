@@ -13,6 +13,8 @@ public class FlowerGrowth : MonoBehaviour
     int butterflyIndex;
 
     int numberOfParticle;
+    [SerializeField]
+    float timePassed;
     
 
     [SerializeField]
@@ -24,13 +26,23 @@ public class FlowerGrowth : MonoBehaviour
         butterflies[1].SetActive(false);
         isBloomed = false;
         anim = gameObject.GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        
+        if(!isBloomed)
+        {
+            timePassed += Time.deltaTime;
+
+            if(timePassed > 300)
+            {
+                isBloomed =true;
+                anim.SetBool("isBloomed", true);
+                Invoke("ButterflySpawn", 1f);
+            }
+        }
         
     }
 
@@ -47,6 +59,7 @@ public class FlowerGrowth : MonoBehaviour
         }
         if (!anim.GetBool("isBloomed") && numberOfParticle > particleNeeded)
         {
+            isBloomed=true;
             anim.SetBool("isBloomed", true);
             
             Invoke("ButterflySpawn", 1f);

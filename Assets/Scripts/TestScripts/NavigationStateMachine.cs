@@ -40,14 +40,23 @@ public class NavigationStateMachine : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        StartCoroutine(butterflyFSM());
+        //StartCoroutine(butterflyFSM());
         nodeHolder = GameObject.Find("WavyGround");
         foreach (Transform t in nodeHolder.transform)
         {
             flyingNodes.Add(t);
         }
         currentNode = Random.Range(0, flyingNodes.Count);
+
     }
+    void OnEnable()
+    {
+        anim = GetComponent<Animator>();
+        agent = GetComponent<NavMeshAgent>();
+        StartCoroutine(butterflyFSM());
+        
+    }
+
 
     #region State Machine Coroutines
 
