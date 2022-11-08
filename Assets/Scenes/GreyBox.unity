@@ -2182,6 +2182,51 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_AnchorAttachments.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_AnchorAttachments.Array.data[0]
+      value: 
+      objectReference: {fileID: 968107838}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_AnchorAttachments.Array.data[1]
+      value: 
+      objectReference: {fileID: 1157749241}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 968107840}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_ControllerVisual
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Liminal.SDK.VR.Avatars.Controllers.VRControllerVisual, Liminal.SDK
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22276a8657744e04cba8ad0a2caf4195, type: 3}
 --- !u!4 &452536857 stripped
