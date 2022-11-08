@@ -11,12 +11,12 @@ using Liminal.SDK.VR;
 public class WateringCan : MonoBehaviour
 {
     
-    public int waterDamage = 30;
-    public float sprayRate = 1.0f;
-    public float sprayRange ;
+    public int waterDamage = 1;
+    //public float sprayRate = 1.0f;
+    //public float sprayRange ;
 
     private WaitForSeconds sprayDuration = new WaitForSeconds(1.0f);
-    private AudioSource sprayAudio;
+    public AudioSource sprayAudio;
     private float nextSpray;
     public ParticleSystem spray;
     public bool playOnAwake = false;
@@ -46,11 +46,23 @@ public class WateringCan : MonoBehaviour
         {
             if (rightInput.GetButtonDown(VRButton.One))
             {
+                Debug.Log("Right Trigger pressed");
                 spray.Play();
+                sprayAudio.Play();
             }
                 
         }
-       
+        if (leftInput != null)
+        {
+            if (leftInput.GetButtonDown(VRButton.One))
+            {
+                Debug.Log("Left Trigger pressed");
+                spray.Play();
+                sprayAudio.Play();
+            }
+
+        }
+
     }
     private IVRInputDevice GetInput(VRInputDeviceHand hand)
     {
