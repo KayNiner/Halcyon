@@ -19,7 +19,7 @@ public class WateringCan : MonoBehaviour
     public AudioSource sprayAudio;
     private float nextSpray;
     public ParticleSystem spray;
-    public bool playOnAwake = false;
+    private bool playOnAwake = false;
 
     // Start is called before the first frame update
     void Start()
@@ -33,10 +33,6 @@ public class WateringCan : MonoBehaviour
     void Update()
 
     {
-
-        var avatar = VRAvatar.Active;
-        if (avatar == null)
-            return;
 
         var rightInput = GetInput(VRInputDeviceHand.Right);
         var leftInput = GetInput(VRInputDeviceHand.Left);
