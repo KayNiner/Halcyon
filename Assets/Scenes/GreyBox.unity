@@ -398,6 +398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -713,6 +718,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
@@ -1162,6 +1172,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bench (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2c8af2ab309bcd049940349e9e5c26e4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2c8af2ab309bcd049940349e9e5c26e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1335,6 +1350,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlowerPot (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
@@ -2869,6 +2889,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bench (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2c8af2ab309bcd049940349e9e5c26e4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2c8af2ab309bcd049940349e9e5c26e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3243,6 +3268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spray Bottle Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 6801286081042668798, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
@@ -4013,6 +4043,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4706,7 +4741,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1436755485}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 46c3e8b5369bc504d9041c498d4f065a,
         type: 3}
@@ -4731,7 +4766,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 46c3e8b5369bc504d9041c498d4f065a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 46c3e8b5369bc504d9041c498d4f065a,
         type: 3}
@@ -4751,7 +4786,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 46c3e8b5369bc504d9041c498d4f065a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 46c3e8b5369bc504d9041c498d4f065a,
         type: 3}
@@ -4775,6 +4810,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46c3e8b5369bc504d9041c498d4f065a, type: 3}
+--- !u!4 &866116217 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 46c3e8b5369bc504d9041c498d4f065a,
+    type: 3}
+  m_PrefabInstance: {fileID: 866116216}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &883609964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4786,6 +4827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlowerPot (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
@@ -11025,6 +11071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11804,6 +11855,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12076,6 +12132,7 @@ Transform:
   - {fileID: 1533620942}
   - {fileID: 828286810}
   - {fileID: 388820677}
+  - {fileID: 866116217}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12182,6 +12239,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12270,6 +12332,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
@@ -12657,6 +12724,61 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2890403038213225138, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3262718203552651927, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7125361764072015009, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6307723549119720989, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7622685272297643219, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2402685129421663942, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2461368390787231321, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7003211939344509340, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1759096696710284146, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -176656083109491884, guid: 0ed20c19ce09d854891de1c50f760228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 0ed20c19ce09d854891de1c50f760228,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12826,6 +12948,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
@@ -13311,6 +13438,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush (6)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13494,6 +13626,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlowerPot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
@@ -14261,6 +14398,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bench
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2c8af2ab309bcd049940349e9e5c26e4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2c8af2ab309bcd049940349e9e5c26e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14374,6 +14516,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bench (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2c8af2ab309bcd049940349e9e5c26e4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2c8af2ab309bcd049940349e9e5c26e4,
         type: 3}
@@ -14754,6 +14901,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FlowerPot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15109,6 +15261,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
@@ -15589,6 +15746,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bush (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 53b4c08152b10064e9b9e00eb0f3cc33,
         type: 3}
@@ -16457,6 +16619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlowerPot
+      objectReference: {fileID: 0}
+    - target: {fileID: 4663458038894034773, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8569426192797601094, guid: 7a7617ae11ee7334a9a19a8997d79ee7,
         type: 3}
