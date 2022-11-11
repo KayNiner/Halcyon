@@ -3414,6 +3414,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.4019928
       objectReference: {fileID: 0}
+    - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.53214
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.53214
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.53214
+      objectReference: {fileID: 0}
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
       propertyPath: looping
@@ -3467,7 +3482,7 @@ PrefabInstance:
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
-      value: 0.28235295
+      value: 0.039215688
       objectReference: {fileID: 0}
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
@@ -3548,6 +3563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 82172062040567573, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
@@ -11034,7 +11054,6 @@ MonoBehaviour:
   waterDamage: 1
   sprayAudio: {fileID: 0}
   spray: {fileID: 1157749243}
-  playOnAwake: 0
 --- !u!1 &1165189029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8198796605982568419, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
