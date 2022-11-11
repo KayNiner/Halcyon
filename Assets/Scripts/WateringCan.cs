@@ -52,9 +52,7 @@ public class WateringCan : MonoBehaviour
         {
             if (leftInput.GetButtonDown(VRButton.One))
             {
-                Debug.Log("Left Trigger pressed");
-                spray.Play();
-                sprayAudio.Play();
+                
             }
 
         }
