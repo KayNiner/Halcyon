@@ -12,7 +12,7 @@ public class RainDelay : MonoBehaviour
     {
         rain = GetComponent<ParticleSystem>();
 
-        Invoke("Rain", 10);//this will happen after 10 seconds
+        Invoke("Rain", 240);//this will happen after 10 seconds
     }
 
     public void Rain()
