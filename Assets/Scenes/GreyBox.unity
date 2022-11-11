@@ -2369,7 +2369,7 @@ PrefabInstance:
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
@@ -2409,17 +2409,7 @@ PrefabInstance:
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
-        type: 3}
-      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
-        type: 3}
-      propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1260162969354081719, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
@@ -3424,6 +3414,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.4019928
       objectReference: {fileID: 0}
+    - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.53214
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.53214
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.53214
+      objectReference: {fileID: 0}
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
       propertyPath: looping
@@ -3477,7 +3482,7 @@ PrefabInstance:
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
-      value: 0.28235295
+      value: 0.039215688
       objectReference: {fileID: 0}
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
@@ -3558,6 +3563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 82172062040567573, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
@@ -5415,11 +5425,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: a23a467eb094e0e44af7802d010803e4,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 8d2b1e83588c6284ca8ccdba276af60a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a23a467eb094e0e44af7802d010803e4, type: 3}
 --- !u!1 &968107838 stripped
@@ -11049,18 +11054,6 @@ MonoBehaviour:
   waterDamage: 1
   sprayAudio: {fileID: 0}
   spray: {fileID: 1157749243}
---- !u!114 &1157749245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157749241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edff4976134e1b347bd1f235cd94498f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1165189029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8198796605982568419, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
