@@ -3244,6 +3244,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spray Bottle Particle System
       objectReference: {fileID: 0}
+    - target: {fileID: 6801286081042668798, guid: 24b658f617733c3469dd8223893df349,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3890987393248147894, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15682,6 +15687,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8870114377789801792}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1316228585172762904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1316228584854551686, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_Name
+      value: HitCone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.744
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6256215
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7801268
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 77.456
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1316228584854551687, guid: 4a06490eccd42d34db2f120385324caf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a06490eccd42d34db2f120385324caf, type: 3}
 --- !u!4 &2052061681060973190 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7485068762660062066, guid: 42fcb19f912f407418907e9fdfe98722,

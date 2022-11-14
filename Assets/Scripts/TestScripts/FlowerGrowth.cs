@@ -68,6 +68,11 @@ public class FlowerGrowth : MonoBehaviour
 
     }
 
+    void OnTriggerEnter()
+    {
+
+    }
+
     void ButterflySpawn()
     {
         butterflyIndex = Random.Range(0, 1);
