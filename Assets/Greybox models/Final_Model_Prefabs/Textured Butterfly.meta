@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Greybox models/Final_Model_Prefabs/Textured Butterfly.meta
 guid: 08547c14d39025143b1ccd549b53b071
+========
+guid: f1d26fa0e072d7541b05bdebade83717
+>>>>>>>> master:Assets/Greybox models/Final_Model_Prefabs/Textured assets.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
