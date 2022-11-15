@@ -21,11 +21,15 @@ public class WateringCan : MonoBehaviour
     public ParticleSystem spray;
     private bool playOnAwake = false;
 
+    [SerializeField]
+    GameObject sprayCone;
+
     // Start is called before the first frame update
     void Start()
     {
         spray = GetComponent<ParticleSystem>();
         sprayAudio = GetComponent<AudioSource>();
+        sprayCone.SetActive(false);
 
     }
 
@@ -60,10 +64,19 @@ public class WateringCan : MonoBehaviour
 
         }
 
+        if( Input.GetKeyDown(KeyCode.M) )
+        {
+            sprayCone.SetActive(true);
+        }
+        if (Input.GetKeyUp(KeyCode.M) )
+        {
+            sprayCone.SetActive(false); 
+        }
     }
     private IVRInputDevice GetInput(VRInputDeviceHand hand)
     {
         var device = VRDevice.Device;
         return hand == VRInputDeviceHand.Left ? device.SecondaryInputDevice : device.PrimaryInputDevice;
     }
+
 }
