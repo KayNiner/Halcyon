@@ -103,6 +103,7 @@ public class FlowerGrowth : MonoBehaviour
         {
             isBloomed = true;
             anim.SetBool("isBloomed", true);
+            Invoke("ButterflySpawn", 1f);
         }
     }
         void ButterflySpawn()
