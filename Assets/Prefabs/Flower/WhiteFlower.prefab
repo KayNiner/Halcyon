@@ -71,6 +71,7 @@ MonoBehaviour:
   butterflies:
   - {fileID: 0}
   - {fileID: 0}
+  timePassed: 0
   particleNeeded: 0
 --- !u!135 &4304014310962604059
 SphereCollider:
@@ -80,7 +81,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249127022923010371}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
