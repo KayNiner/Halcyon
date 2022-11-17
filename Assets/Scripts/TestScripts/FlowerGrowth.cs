@@ -19,6 +19,9 @@ public class FlowerGrowth : MonoBehaviour
 
     [SerializeField]
     int particleNeeded;
+
+    [SerializeField]
+    int hitPoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +29,7 @@ public class FlowerGrowth : MonoBehaviour
         butterflies[1].SetActive(false);
         isBloomed = false;
         anim = gameObject.GetComponent<Animator>();
-        
+        hitPoint = 500;
     }
 
     // Update is called once per frame
@@ -68,7 +71,42 @@ public class FlowerGrowth : MonoBehaviour
 
     }
 
-    void ButterflySpawn()
+    void OnTriggerEnter()
+    {   
+        
+        if (anim.GetBool("isBloomed"))
+        {
+            Debug.Log("Flower is already Bloomed");
+        }
+        if (!anim.GetBool("isBloomed") && hitPoint > 0)
+        {
+            hitPoint -= 15;
+            //isBloomed = true;
+            //anim.SetBool("isBloomed", true);
+
+           // Invoke("ButterflySpawn", 1f);
+        }
+    }
+
+    void OnTriggerStay()
+    {
+        if (anim.GetBool("isBloomed"))
+        {
+            Debug.Log("Flower is already Bloomed");
+        }
+        if (!anim.GetBool("isBloomed") && hitPoint > 0)
+        {
+            hitPoint--;
+            
+        }
+        if (!anim.GetBool("isBloomed") && hitPoint <= 0)
+        {
+            isBloomed = true;
+            anim.SetBool("isBloomed", true);
+            Invoke("ButterflySpawn", 1f);
+        }
+    }
+        void ButterflySpawn()
     {
         butterflyIndex = Random.Range(0, 1);
         butterflies[butterflyIndex].SetActive(true); 
