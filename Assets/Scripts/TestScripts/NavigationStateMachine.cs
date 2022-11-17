@@ -117,6 +117,12 @@ public class NavigationStateMachine : MonoBehaviour
         }
 
     }
+    
+    IEnumerable SET1()
+    {
+
+        yield return null;
+    }
 
     #endregion
 }
