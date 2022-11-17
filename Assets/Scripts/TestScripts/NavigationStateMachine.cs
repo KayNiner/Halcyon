@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class NavigationStateMachine : MonoBehaviour
 {
     //Create state for butterfly AI.
-    public enum STATES { IDLE, FLYING, LEAVING}
+    public enum STATES { SET1, SET2, SET3, SET4, FINAL, FLYING}
     public STATES currentState;
 
     private NavMeshAgent agent;
@@ -22,31 +22,35 @@ public class NavigationStateMachine : MonoBehaviour
     //[SerializeField] Transform[] flyingNodes;
     [SerializeField] int currentNode = 0;
 
+    //node Holder
     [SerializeField] GameObject nodeHolder;
-    [SerializeField] List<Transform> flyingNodes = new List<Transform>();
-    
 
+    //List of nodes
+    [SerializeField] List<Transform> flyingNodes = new List<Transform>();
+   
 
     //Awake
     private void Awake()
     {
-        currentState = STATES.FLYING;
-        
-        
-
+        //currentState = STATES.FLYING;
     }
 
     private void Start()
     {
+        //Grabbing navmesh agent and animator 
         anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         //StartCoroutine(butterflyFSM());
-        nodeHolder = GameObject.Find("WavyGround");
+
+        //Assigning Waypoint/Adding them to the list
+        nodeHolder = GameObject.Find("Waypoints");
+        
+
         foreach (Transform t in nodeHolder.transform)
         {
             flyingNodes.Add(t);
         }
-        currentNode = Random.Range(0, flyingNodes.Count);
+        
 
     }
     void OnEnable()
@@ -67,7 +71,7 @@ public class NavigationStateMachine : MonoBehaviour
             yield return StartCoroutine(currentState.ToString());
         }
     }
-    IEnumerator IDLE()
+    /*IEnumerator IDLE()
     {
         //Enter the state: run behaviour on state start here
         Debug.Log("IDLE");
@@ -89,13 +93,10 @@ public class NavigationStateMachine : MonoBehaviour
             currentState = STATES.FLYING;
         }
         
-        
-        
-
         //Exit states
-        Debug.Log("Start Flying");
+        Debug.Log("Start Flying")
+    }*/
 
-    }
 
     IEnumerator FLYING()
     {
@@ -120,6 +121,49 @@ public class NavigationStateMachine : MonoBehaviour
     
     IEnumerable SET1()
     {
+        //State Entries
+        Debug.Log("Butterflies are flying on set1 path");
+        anim.SetBool("isFlying", true);
+
+        //Looping the behaviours;
+        while(currentState == STATES.SET1)
+        {
+            agent.SetDestination(flyingNodes[currentNode].position);
+            if(!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+            {
+                currentNode++;
+                if(currentNode >=3)
+                {
+                    currentNode = 0;
+                }
+            }
+            yield return new WaitForEndOfFrame();
+        }
+
+        yield return null;
+    }
+
+    IEnumerable SET2()
+    {
+        //State Entries
+        Debug.Log("Butterflies are flying on set1 path");
+        anim.SetBool("isFlying", true);
+
+        //Looping the behaviours;
+        while (currentState == STATES.SET1)
+        {
+            agent.SetDestination(flyingNodes[currentNode].position);
+            if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+            {
+                currentNode=
+                currentNode++;
+                if (currentNode >= 3)
+                {
+                    currentNode = 0;
+                }
+            }
+            yield return new WaitForEndOfFrame();
+        }
 
         yield return null;
     }
