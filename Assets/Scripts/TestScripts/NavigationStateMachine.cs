@@ -168,5 +168,54 @@ public class NavigationStateMachine : MonoBehaviour
         yield return null;
     }
 
+    IEnumerable SET3()
+    {
+        //State Entries
+        Debug.Log("Butterflies are flying on set1 path");
+        anim.SetBool("isFlying", true);
+        currentNode = 8;
+        //Looping the behaviours;
+        while (currentState == STATES.SET1)
+        {
+            agent.SetDestination(flyingNodes[currentNode].position);
+            if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+            {
+
+                currentNode++;
+                if (currentNode >= 10)
+                {
+                    currentNode = 8;
+                }
+            }
+            yield return new WaitForEndOfFrame();
+        }
+
+        yield return null;
+    }
+    IEnumerable SET3()
+    {
+        //State Entries
+        Debug.Log("Butterflies are flying on set1 path");
+        anim.SetBool("isFlying", true);
+        currentNode = 11;
+        //Looping the behaviours;
+        while (currentState == STATES.SET1)
+        {
+            agent.SetDestination(flyingNodes[currentNode].position);
+            if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+            {
+
+                currentNode++;
+                if (currentNode >= 14)
+                {
+                    currentNode = 11;
+                }
+            }
+            yield return new WaitForEndOfFrame();
+        }
+
+        yield return null;
+    }
+
     #endregion
 }
