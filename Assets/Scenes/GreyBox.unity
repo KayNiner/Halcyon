@@ -1729,6 +1729,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Garden_bed
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 630cc4358c3c228498df5946fbe84b33,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 630cc4358c3c228498df5946fbe84b33,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4105,7 +4110,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 701b687bb129e264b90dcd8fa134011d,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967263
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 701b687bb129e264b90dcd8fa134011d,
         type: 3}
@@ -12630,7 +12635,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 8a30d609a188bd144a054b00be530370,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967263
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 8a30d609a188bd144a054b00be530370,
         type: 3}
