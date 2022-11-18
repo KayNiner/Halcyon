@@ -148,18 +148,18 @@ public class NavigationStateMachine : MonoBehaviour
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
-
+        currentNode = 4;
         //Looping the behaviours;
         while (currentState == STATES.SET1)
         {
             agent.SetDestination(flyingNodes[currentNode].position);
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             {
-                currentNode=
+              
                 currentNode++;
-                if (currentNode >= 3)
+                if (currentNode >= 7)
                 {
-                    currentNode = 0;
+                    currentNode = 4;
                 }
             }
             yield return new WaitForEndOfFrame();
