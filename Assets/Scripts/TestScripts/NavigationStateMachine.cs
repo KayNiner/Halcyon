@@ -45,7 +45,6 @@ public class NavigationStateMachine : MonoBehaviour
         //Assigning Waypoint/Adding them to the list
         nodeHolder = GameObject.Find("Waypoints");
         
-
         foreach (Transform t in nodeHolder.transform)
         {
             flyingNodes.Add(t);
@@ -150,7 +149,7 @@ public class NavigationStateMachine : MonoBehaviour
         anim.SetBool("isFlying", true);
         currentNode = 4;
         //Looping the behaviours;
-        while (currentState == STATES.SET1)
+        while (currentState == STATES.SET2)
         {
             agent.SetDestination(flyingNodes[currentNode].position);
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
@@ -175,7 +174,7 @@ public class NavigationStateMachine : MonoBehaviour
         anim.SetBool("isFlying", true);
         currentNode = 8;
         //Looping the behaviours;
-        while (currentState == STATES.SET1)
+        while (currentState == STATES.SET3)
         {
             agent.SetDestination(flyingNodes[currentNode].position);
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
@@ -192,14 +191,14 @@ public class NavigationStateMachine : MonoBehaviour
 
         yield return null;
     }
-    IEnumerable SET3()
+    IEnumerable SET4()
     {
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
         currentNode = 11;
         //Looping the behaviours;
-        while (currentState == STATES.SET1)
+        while (currentState == STATES.SET4)
         {
             agent.SetDestination(flyingNodes[currentNode].position);
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
@@ -209,6 +208,31 @@ public class NavigationStateMachine : MonoBehaviour
                 if (currentNode >= 14)
                 {
                     currentNode = 11;
+                }
+            }
+            yield return new WaitForEndOfFrame();
+        }
+
+        yield return null;
+    }
+
+    IEnumerable FINAL()
+    {
+        //State Entries
+        Debug.Log("Butterflies are flying on set1 path");
+        anim.SetBool("isFlying", true);
+        currentNode = 15;
+        //Looping the behaviours;
+        while (currentState == STATES.FINAL)
+        {
+            agent.SetDestination(flyingNodes[currentNode].position);
+            if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+            {
+
+                currentNode++;
+                if (currentNode >= 18)
+                {
+                    currentNode = 15;
                 }
             }
             yield return new WaitForEndOfFrame();
