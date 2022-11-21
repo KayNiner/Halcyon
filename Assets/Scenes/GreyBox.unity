@@ -6030,6 +6030,32 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 98912933}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &907983260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6801286081042668798, guid: cf0cd38c08c5ded47b3cad236d6d1b98,
+    type: 3}
+  m_PrefabInstance: {fileID: 576065072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &907983261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907983260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b5bca4e06f66442b3bdc176c750866, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rain: {fileID: 907983263}
+  rainAudio: {fileID: 0}
+--- !u!198 &907983263 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9123251808466518703, guid: cf0cd38c08c5ded47b3cad236d6d1b98,
+    type: 3}
+  m_PrefabInstance: {fileID: 576065072}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &912817043
 PrefabInstance:
   m_ObjectHideFlags: 0
