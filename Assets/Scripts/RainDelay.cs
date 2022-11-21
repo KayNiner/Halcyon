@@ -14,13 +14,14 @@ public class RainDelay : MonoBehaviour
         rain = GetComponent<ParticleSystem>();
         rainAudio = GetComponent<AudioSource>();
 
-        Invoke("Rain", 240);//this will happen after 10 seconds
+        Invoke("Rain", 20);//this will happen after 10 seconds
     }
 
     public void Rain()
     {
         rain.Play();
-        Debug.Log("Its Raining");
+        rainAudio.Play();
+       // Debug.Log("Its Raining");
     }
 
     
