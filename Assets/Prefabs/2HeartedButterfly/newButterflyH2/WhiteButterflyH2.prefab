@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 8268983421888279154}
   - component: {fileID: 2160104519523880192}
   - component: {fileID: 2797121781863916638}
+  - component: {fileID: 4991420421835594478}
   m_Layer: 0
   m_Name: WhiteButterflyH2
   m_TagString: Untagged
@@ -442,6 +443,21 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &4991420421835594478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7366759729346304659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6607b0a6c358e8a4e91cfb62eeb20c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSize: 9.228498
+  growFactor: 2
+  waitTime: 3
 --- !u!1 &7792373218328343685
 GameObject:
   m_ObjectHideFlags: 0

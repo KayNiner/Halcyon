@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5576425570595330386}
   - component: {fileID: 583714558969490248}
   - component: {fileID: 3655544937556517138}
+  - component: {fileID: -1178766186564443925}
   m_Layer: 0
   m_Name: Spray bottle
   m_TagString: Untagged
@@ -145,6 +146,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &-1178766186564443925
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8878891032577289025}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d91141c3e10bb74999748fb695f0cd1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &583714557341306768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -432,11 +452,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spray_Bottle_Final
       objectReference: {fileID: 0}
-    - target: {fileID: -7362121127055956182, guid: bb0ef0eb5dfe44245b0c9fdea02419a5,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
     - target: {fileID: -4216859302048453862, guid: bb0ef0eb5dfe44245b0c9fdea02419a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -493,6 +508,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7308450441218518536, guid: bb0ef0eb5dfe44245b0c9fdea02419a5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 061d77e6bdf57bb4cb09e9bedcdae8cf, type: 2}
+    - target: {fileID: -7362121127055956182, guid: bb0ef0eb5dfe44245b0c9fdea02419a5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
