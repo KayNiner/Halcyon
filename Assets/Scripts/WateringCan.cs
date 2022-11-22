@@ -67,7 +67,7 @@ public class WateringCan : MonoBehaviour
         }
         if (rightInput == null)
         {
-            if (rightInput.GetButtonUp(VRButton.One))
+            if (rightInput.GetButtonUp(VRButton.Trigger))
             {
                 Debug.Log("Right Trigger Releases");
                 sprayCone.SetActive(false);
@@ -75,7 +75,7 @@ public class WateringCan : MonoBehaviour
         }
         if (leftInput != null)
         {
-            if (leftInput.GetButtonUp(VRButton.One))
+            if (leftInput.GetButtonUp(VRButton.Trigger))    
             {
                 Debug.Log("Left Trigger Releases");
                 sprayCone.SetActive(false);

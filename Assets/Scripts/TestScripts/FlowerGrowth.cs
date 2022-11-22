@@ -30,6 +30,8 @@ public class FlowerGrowth : MonoBehaviour
         isBloomed = false;
         anim = gameObject.GetComponent<Animator>();
         hitPoint = 500;
+        
+        
     }
 
     // Update is called once per frame
@@ -39,7 +41,7 @@ public class FlowerGrowth : MonoBehaviour
         {
             timePassed += Time.deltaTime;
 
-            if(timePassed > 300)
+            if(timePassed > 10)
             {
                 isBloomed =true;
                 anim.SetBool("isBloomed", true);
