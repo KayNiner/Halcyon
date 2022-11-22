@@ -21,8 +21,9 @@ public class RainDelay : MonoBehaviour
     {
         rain.Play();
         rainAudio.Play();
-       // Debug.Log("Its Raining");
+
+        // Debug.Log("Its Raining");
     }
 
-    
+
 }
