@@ -39,7 +39,7 @@ public class FlowerGrowth : MonoBehaviour
         {
             timePassed += Time.deltaTime;
 
-            if(timePassed > 55)
+            if(timePassed > 5)
             {
                 isBloomed =true;
                 anim.SetBool("isBloomed", true);
