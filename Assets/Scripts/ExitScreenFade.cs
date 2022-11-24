@@ -15,6 +15,7 @@ public class ExitScreenFade : MonoBehaviour
 
     }
 
+    //add trigger to call expEnd function
     void expEnd()
     {
         var fader = ScreenFader.Instance;
