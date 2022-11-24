@@ -108,7 +108,6 @@ GameObject:
   - component: {fileID: -8332452290930729788}
   - component: {fileID: -4714100418822361621}
   - component: {fileID: 2962183439473548963}
-  - component: {fileID: 3596219434060372010}
   m_Layer: 0
   m_Name: RedButterflyH1
   m_TagString: Untagged
@@ -313,21 +312,6 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &3596219434060372010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6082923248947273961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6607b0a6c358e8a4e91cfb62eeb20c81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxSize: 9.228498
-  growFactor: 2
-  waitTime: 3
 --- !u!1 &6806360354237124351
 GameObject:
   m_ObjectHideFlags: 0
