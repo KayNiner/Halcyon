@@ -33,22 +33,23 @@ public class NavigationStateMachine : MonoBehaviour
     private void Awake()
     {
         //currentState = STATES.FLYING;
+        nodeHolder = GameObject.Find("Waypoints");
+        agent = GetComponent<NavMeshAgent>();
+        foreach (Transform t in nodeHolder.transform)
+        {
+            flyingNodes.Add(t);
+        }
     }
 
     private void Start()
     {
         //Grabbing navmesh agent and animator 
         anim = GetComponent<Animator>();
-        agent = GetComponent<NavMeshAgent>();
+        
         StartCoroutine(butterflyFSM());
 
         //Assigning Waypoint/Adding them to the list
-        /*nodeHolder = GameObject.Find("Waypoints");
         
-        foreach (Transform t in nodeHolder.transform)
-        {
-            flyingNodes.Add(t);
-        }*/
         
 
     }
@@ -118,30 +119,26 @@ public class NavigationStateMachine : MonoBehaviour
 
     }
     
-    IEnumerable PATHA()
+    IEnumerator PATHA()
     {
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
-        currentNode = 0;
         //Looping the behaviours;
         while(currentState == STATES.PATHA)
         {
             agent.SetDestination(flyingNodes[currentNode].position);
             if(!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             {
-                currentNode+=1;
-                if(currentNode >=3)
-                {
-                    currentNode = 0;
-                }
+                currentNode = Random.Range(0, 4);
             }
             yield return new WaitForEndOfFrame();
+
         }
 
     }
 
-    IEnumerable SET2()
+    IEnumerator SET2()
     {
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");
@@ -166,7 +163,7 @@ public class NavigationStateMachine : MonoBehaviour
         yield return null;
     }
 
-    IEnumerable SET3()
+    IEnumerator SET3()
     {
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");
@@ -190,7 +187,7 @@ public class NavigationStateMachine : MonoBehaviour
 
         yield return null;
     }
-    IEnumerable SET4()
+    IEnumerator SET4()
     {
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");
@@ -215,7 +212,7 @@ public class NavigationStateMachine : MonoBehaviour
         yield return null;
     }
 
-    IEnumerable FINAL()
+    IEnumerator FINAL()
     {
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");
@@ -239,7 +236,7 @@ public class NavigationStateMachine : MonoBehaviour
 
         yield return null;
     }
-    IEnumerable RANDOM()
+    IEnumerator RANDOM()
     {
         //State Entries
         Debug.Log("Butterflies are flying on set1 path");

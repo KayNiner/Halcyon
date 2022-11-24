@@ -435,6 +435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedFlower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 203237692526239360, guid: 20731fad34f4f9940a725be4fab876d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3785647405948071059, guid: 20731fad34f4f9940a725be4fab876d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -792,6 +797,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MagentaFlower (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651723345647872867, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2357423819915352432, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
         type: 3}
@@ -1323,12 +1333,17 @@ PrefabInstance:
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
       propertyPath: flyingNodes.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
-      propertyPath: flyingNodes.Array.data[0]
-      value: 
+      propertyPath: currentState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2507513525689312885, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f5d5af7589ada344a8838bcf0495c45, type: 3}
@@ -2320,6 +2335,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PinkFlower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
@@ -4849,6 +4869,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MagentaFlower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651723345647872867, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2357423819915352432, guid: 453b66a7e25c0bb48a2b9fb5b594a204,
         type: 3}
@@ -15206,6 +15231,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteFlower (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 249127022923010371, guid: 2937b384a3947e94db18ded41d8f6ba6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3832082169091597136, guid: 2937b384a3947e94db18ded41d8f6ba6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15310,6 +15340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WhiteFlower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 249127022923010371, guid: 2937b384a3947e94db18ded41d8f6ba6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3832082169091597136, guid: 2937b384a3947e94db18ded41d8f6ba6,
         type: 3}
@@ -16301,6 +16336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinkFlower (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: butteflies.Array.data[0]
@@ -16746,8 +16786,7 @@ MonoBehaviour:
   idleNodes: []
   currentNode: 0
   nodeHolder: {fileID: 0}
-  flyingNodes:
-  - {fileID: 0}
+  flyingNodes: []
 --- !u!1 &2075304134 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8198796605982568419, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
@@ -17801,6 +17840,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinkFlower
       objectReference: {fileID: 0}
+    - target: {fileID: 5533307944533662959, guid: b07bb03c4c6aa834bb57bb5664a148a4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2453542361016329363, guid: b07bb03c4c6aa834bb57bb5664a148a4,
         type: 3}
       propertyPath: butterflies.Array.size
@@ -18192,6 +18236,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteFlower
       objectReference: {fileID: 0}
+    - target: {fileID: 249127022923010371, guid: 2937b384a3947e94db18ded41d8f6ba6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3832082169091597136, guid: 2937b384a3947e94db18ded41d8f6ba6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18290,6 +18339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RedFlower
+      objectReference: {fileID: 0}
+    - target: {fileID: 203237692526239360, guid: 20731fad34f4f9940a725be4fab876d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3785647405948071059, guid: 20731fad34f4f9940a725be4fab876d5,
         type: 3}
