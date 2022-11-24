@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 1217047285046920488}
   - component: {fileID: 7437864804438239185}
   - component: {fileID: 3800718769105851618}
+  - component: {fileID: -5271168267426330612}
   m_Layer: 0
   m_Name: PinkButterflyH2
   m_TagString: Untagged
@@ -534,3 +535,18 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &-5271168267426330612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648865122246309052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6607b0a6c358e8a4e91cfb62eeb20c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSize: 9.228498
+  growFactor: 2
+  waitTime: 3
