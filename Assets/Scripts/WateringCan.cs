@@ -37,7 +37,6 @@ public class WateringCan : MonoBehaviour
     void Update()
 
     {
-
         var rightInput = GetInput(VRInputDeviceHand.Right);
         var leftInput = GetInput(VRInputDeviceHand.Left);
 
@@ -49,7 +48,7 @@ public class WateringCan : MonoBehaviour
                 Debug.Log("Right Trigger pressed");
                 spray.Play();
                 sprayAudio.Play();
-            }
+                            }
                 
         }
         if (leftInput != null)
@@ -63,14 +62,19 @@ public class WateringCan : MonoBehaviour
             }
 
         }
-
-        if( rightInput.GetButtonDown(VRButton.One))
-        { 
-            sprayCone.SetActive(true);
-        }
-        if (rightInput.GetButtonUp(VRButton.One))
+        if (rightInput != null)
         {
-            sprayCone.SetActive(false); 
+            if (rightInput.GetButtonDown(VRButton.One))
+            {
+                sprayCone.SetActive(true);
+            }
+            if (rightInput != null)
+            {
+                if (rightInput.GetButtonUp(VRButton.One))
+                {
+                    sprayCone.SetActive(false);
+                }
+            }
         }
     }
     private IVRInputDevice GetInput(VRInputDeviceHand hand)
