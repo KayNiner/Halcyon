@@ -21,8 +21,8 @@ public class WateringCan : MonoBehaviour
     public ParticleSystem spray;
     private bool playOnAwake = false;
 
-    [SerializeField]
-    GameObject sprayCone;
+    
+    public GameObject sprayCone;
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +47,6 @@ public class WateringCan : MonoBehaviour
             if (rightInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Right Trigger pressed");
-                sprayCone.SetActive(true);
                 spray.Play();
                 sprayAudio.Play();
             }
@@ -58,40 +57,21 @@ public class WateringCan : MonoBehaviour
             if (leftInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Left Trigger pressed");
-                sprayCone.SetActive(true);
                 spray.Play();
                 sprayAudio.Play();
 
             }
 
         }
-        if (rightInput == null)
-        {
-            if (rightInput.GetButtonUp(VRButton.Trigger))
-            {
-                Debug.Log("Right Trigger Releases");
-                sprayCone.SetActive(false);
-            }
-        }
-        if (leftInput != null)
-        {
-            if (leftInput.GetButtonUp(VRButton.Trigger))    
-            {
-                Debug.Log("Left Trigger Releases");
-                sprayCone.SetActive(false);
 
-            }
-            
-        }
-
-        /*(if ( Input.GetKeyDown(KeyCode.M) )
-        {
+        if( rightInput.GetButtonDown(VRButton.One))
+        { 
             sprayCone.SetActive(true);
         }
-        if (Input.GetKeyUp(KeyCode.M) )
+        if (rightInput.GetButtonUp(VRButton.One))
         {
             sprayCone.SetActive(false); 
-        }*/
+        }
     }
     private IVRInputDevice GetInput(VRInputDeviceHand hand)
     {
