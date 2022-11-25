@@ -8,7 +8,7 @@ public class ExitScreenFade :FlowerGrowth
 {
     float fadeDuration = 0.5f;
     Color color = Color.black;
-    
+    public int numberOfBloomedFlower;
     [SerializeField]
     List<GameObject> flowers;
 
@@ -30,9 +30,18 @@ public class ExitScreenFade :FlowerGrowth
     // Update is called once per frame
     void Update()
     {
-        if (isBloomed == true)
+        if (numberOfBloomedFlower >=10)
         {
-           Invoke("expEnd", 10);
+           Invoke("expEnd", 20);
+        }
+
+        foreach(GameObject gameObject in flowers)
+        {
+            if (gameObject.GetComponent<Animator>().GetBool("isBloomed"))
+            {
+                numberOfBloomedFlower+=1;
+            }
+
         }
     }
 }
