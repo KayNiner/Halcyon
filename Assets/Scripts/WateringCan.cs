@@ -41,7 +41,6 @@ public class WateringCan : MonoBehaviour
         var rightInput = GetInput(VRInputDeviceHand.Right);
         var leftInput = GetInput(VRInputDeviceHand.Left);
 
-
         if (rightInput != null)
         {
             if (rightInput.GetButtonDown(VRButton.One))
