@@ -21,8 +21,8 @@ public class WateringCan : MonoBehaviour
     public ParticleSystem spray;
     private bool playOnAwake = false;
 
-    [SerializeField]
-    GameObject sprayCone;
+    
+    public GameObject sprayCone;
 
     // Start is called before the first frame update
     void Start()
@@ -64,11 +64,11 @@ public class WateringCan : MonoBehaviour
 
         }
 
-        if( Input.GetButtonUp(VRButton.One))
-        {
+        if( rightInput.GetButtonDown(VRButton.One))
+        { 
             sprayCone.SetActive(true);
         }
-        if (Input.GetButtonUp(VRButton.One))
+        if (rightInput.GetButtonUp(VRButton.One))
         {
             sprayCone.SetActive(false); 
         }
