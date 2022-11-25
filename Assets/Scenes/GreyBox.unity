@@ -3661,7 +3661,7 @@ PrefabInstance:
     - target: {fileID: 1260162969412560869, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1260162969572976434, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
@@ -3676,7 +3676,7 @@ PrefabInstance:
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
@@ -3702,7 +3702,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2016952940}
+      objectReference: {fileID: 968107838}
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -3737,7 +3737,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 2016952940}
+      objectReference: {fileID: 452536860}
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -3767,7 +3767,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 2016952940}
+      objectReference: {fileID: 1110655655}
     - target: {fileID: 1260162968871696497, guid: 22276a8657744e04cba8ad0a2caf4195,
         type: 3}
       propertyPath: m_Events.m_OnAnchored.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -3835,6 +3835,12 @@ Transform:
 --- !u!4 &452536859 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1260162970260054291, guid: 22276a8657744e04cba8ad0a2caf4195,
+    type: 3}
+  m_PrefabInstance: {fileID: 452536856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &452536860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1260162969412560869, guid: 22276a8657744e04cba8ad0a2caf4195,
     type: 3}
   m_PrefabInstance: {fileID: 452536856}
   m_PrefabAsset: {fileID: 0}
@@ -19430,12 +19436,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986176849}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2016952940 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1260162970260054300, guid: 22276a8657744e04cba8ad0a2caf4195,
-    type: 3}
-  m_PrefabInstance: {fileID: 452536856}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2025153093
 GameObject:
   m_ObjectHideFlags: 0
