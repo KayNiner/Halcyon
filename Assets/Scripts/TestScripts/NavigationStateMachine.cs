@@ -42,7 +42,7 @@ public class NavigationStateMachine : MonoBehaviour
     //Reference ScreeFade Script
     public int bloomedFlower;
     float circlingTimer;
-    float lerpSpeed = 0.7f;
+    float lerpSpeed = 0.001f;
     
     public ExitScreenFade exitScreen;
 
@@ -158,7 +158,7 @@ public class NavigationStateMachine : MonoBehaviour
             circlingTimer += Time.deltaTime;
         }
 
-        if (circlingTimer >= 10)
+        if (circlingTimer >= 17)
         {
             StopAllCoroutines();
             gameObject.GetComponent<NavMeshAgent>().enabled = false;
