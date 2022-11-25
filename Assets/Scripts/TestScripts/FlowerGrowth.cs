@@ -6,7 +6,7 @@ public class FlowerGrowth : MonoBehaviour
 {
     [SerializeField]
     Animator anim;
-    bool isBloomed;
+    public bool isBloomed;
 
     [SerializeField]
     List<GameObject> butterflies;
