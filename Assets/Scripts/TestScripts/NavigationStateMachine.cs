@@ -406,7 +406,7 @@ public class NavigationStateMachine : MonoBehaviour
         //Looping the behaviours;
         while (currentState == STATES.SET4Bot)
         {
-            agent.SetDestination(flyingNodes3Bot[currentNode].position);
+            agent.SetDestination(flyingNodes4Bot[currentNode].position);
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
             {
 
