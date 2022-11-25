@@ -615,8 +615,8 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: VRButton.One
-    descriptiveName: 
-    descriptiveNegativeName: 
+    descriptiveName: Primary Button down
+    descriptiveNegativeName: Primary Button up
     negativeButton: 
     positiveButton: 
     altNegativeButton: 
