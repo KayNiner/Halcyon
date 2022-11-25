@@ -210,6 +210,21 @@ PrefabInstance:
       propertyPath: currentState
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f5d5af7589ada344a8838bcf0495c45, type: 3}
 --- !u!1 &27635810
@@ -1397,6 +1412,16 @@ PrefabInstance:
       propertyPath: currentState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f5d5af7589ada344a8838bcf0495c45, type: 3}
 --- !u!4 &129850717 stripped
@@ -1608,6 +1633,16 @@ PrefabInstance:
       propertyPath: waitTime
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27bfe378911f28e4e80e0cb169ea24a2, type: 3}
 --- !u!1001 &155781281
@@ -1722,6 +1757,16 @@ PrefabInstance:
       propertyPath: maxSize
       value: 9.228498
       objectReference: {fileID: 0}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61fb428a7bd3ae42ac4754ac8d37de9, type: 3}
 --- !u!1001 &159419642
@@ -1868,6 +1913,7 @@ MonoBehaviour:
   timePassed: 0
   particleNeeded: 0
   hitPoint: 0
+  numberOfBloomedFlower: 0
   flowers:
   - {fileID: 7335788437652457069}
   - {fileID: 4605967819767741544}
@@ -2818,6 +2864,21 @@ PrefabInstance:
       propertyPath: currentState
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f5d5af7589ada344a8838bcf0495c45, type: 3}
 --- !u!1001 &297388316
@@ -3809,6 +3870,16 @@ PrefabInstance:
       propertyPath: flyingNodes.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1217047285046920488, guid: 5974fa2f2a2854b469b249e2f4f9c832,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 1217047285046920488, guid: 5974fa2f2a2854b469b249e2f4f9c832,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5974fa2f2a2854b469b249e2f4f9c832, type: 3}
 --- !u!1001 &468741001
@@ -4029,6 +4100,16 @@ PrefabInstance:
       propertyPath: flyingNodes.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1217047285046920488, guid: 5974fa2f2a2854b469b249e2f4f9c832,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 1217047285046920488, guid: 5974fa2f2a2854b469b249e2f4f9c832,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5974fa2f2a2854b469b249e2f4f9c832, type: 3}
 --- !u!1001 &545440871
@@ -5464,6 +5545,21 @@ PrefabInstance:
       propertyPath: currentState
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c89c361894acd0468a314468556dbbb, type: 3}
 --- !u!4 &729811070 stripped
@@ -5707,6 +5803,21 @@ PrefabInstance:
       propertyPath: currentState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c89c361894acd0468a314468556dbbb, type: 3}
 --- !u!1001 &790182897
@@ -6988,6 +7099,16 @@ PrefabInstance:
       propertyPath: flyingNodes.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8268983421888279154, guid: 0d192d031887b0043adf04bc9ce87c36,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 8268983421888279154, guid: 0d192d031887b0043adf04bc9ce87c36,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d192d031887b0043adf04bc9ce87c36, type: 3}
 --- !u!4 &895240860 stripped
@@ -7678,6 +7799,16 @@ PrefabInstance:
       propertyPath: flyingNodes.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8268983421888279154, guid: 0d192d031887b0043adf04bc9ce87c36,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 8268983421888279154, guid: 0d192d031887b0043adf04bc9ce87c36,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d192d031887b0043adf04bc9ce87c36, type: 3}
 --- !u!1001 &987377618
@@ -7777,6 +7908,16 @@ PrefabInstance:
       propertyPath: currentState
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5ba737080bf760419cbf31deb19e71e, type: 3}
 --- !u!1001 &1027888145
@@ -13714,6 +13855,16 @@ PrefabInstance:
       propertyPath: currentState
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61fb428a7bd3ae42ac4754ac8d37de9, type: 3}
 --- !u!4 &1265213931 stripped
@@ -13939,6 +14090,16 @@ PrefabInstance:
       propertyPath: flyingNodes.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61fb428a7bd3ae42ac4754ac8d37de9, type: 3}
 --- !u!1001 &1335484309
@@ -15233,6 +15394,16 @@ PrefabInstance:
       propertyPath: currentState
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5ba737080bf760419cbf31deb19e71e, type: 3}
 --- !u!4 &1533620942 stripped
@@ -15354,6 +15525,16 @@ PrefabInstance:
       propertyPath: flyingNodes.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8268983421888279154, guid: 0d192d031887b0043adf04bc9ce87c36,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 8268983421888279154, guid: 0d192d031887b0043adf04bc9ce87c36,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d192d031887b0043adf04bc9ce87c36, type: 3}
 --- !u!1 &1574226629
@@ -16045,6 +16226,16 @@ PrefabInstance:
       propertyPath: currentState
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1981509281641037754, guid: 42fcb19f912f407418907e9fdfe98722,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: -1981509281641037754, guid: 42fcb19f912f407418907e9fdfe98722,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42fcb19f912f407418907e9fdfe98722, type: 3}
 --- !u!1 &1659093089
@@ -16178,6 +16369,16 @@ PrefabInstance:
       propertyPath: currentState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5ba737080bf760419cbf31deb19e71e, type: 3}
 --- !u!1 &1666168785
@@ -18190,6 +18391,16 @@ PrefabInstance:
       propertyPath: flyingNodes.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27bfe378911f28e4e80e0cb169ea24a2, type: 3}
 --- !u!1 &1917850227
@@ -19377,7 +19588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 1
   anim: {fileID: 0}
-  idleNodes: []
+  planet: {fileID: 0}
   currentNode: 0
   nodeHolder1: {fileID: 0}
   nodeHolder2: {fileID: 0}
@@ -19389,16 +19600,9 @@ MonoBehaviour:
   nodeHolder3Bot: {fileID: 0}
   nodeHolder4Bot: {fileID: 0}
   nodeHolderFinalBot: {fileID: 0}
-  flyingNodes1: []
-  flyingNodes2: []
-  flyingNodes3: []
-  flyingNodes4: []
-  flyingNodesFinal: []
-  flyingNodes1Bot: []
-  flyingNodes2Bot: []
-  flyingNodes3Bot: []
-  flyingNodes4Bot: []
-  flyingNodesFinalBot: []
+  finalWaypoint: 0
+  bloomedFlower: 0
+  exitScreen: {fileID: 0}
   maxSize: 0
   growFactor: 0
   waitTime: 0
@@ -19609,6 +19813,21 @@ PrefabInstance:
       propertyPath: currentState
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: -1981509281641037754, guid: 42fcb19f912f407418907e9fdfe98722,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1981509281641037754, guid: 42fcb19f912f407418907e9fdfe98722,
+        type: 3}
+      propertyPath: exitScreen
+      value: 
+      objectReference: {fileID: 161227338}
+    - target: {fileID: -1981509281641037754, guid: 42fcb19f912f407418907e9fdfe98722,
+        type: 3}
+      propertyPath: planet
+      value: 
+      objectReference: {fileID: 743563497}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42fcb19f912f407418907e9fdfe98722, type: 3}
 --- !u!1 &2094635092

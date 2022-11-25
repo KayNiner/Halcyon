@@ -13,8 +13,10 @@ public class NavigationStateMachine : MonoBehaviour
     public Animator anim;
     bool isFlying;
 
+    public enum finalDestination {TOP, BOTTOM}
+    public GameObject planet;
+
     //target location nodes
-    [SerializeField] Transform[] idleNodes;
 
     //[SerializeField] Transform[] flyingNodes;
     [SerializeField] int currentNode = 0;
@@ -22,18 +24,28 @@ public class NavigationStateMachine : MonoBehaviour
     //node Holder
     [SerializeField] GameObject nodeHolder1, nodeHolder2, nodeHolder3, nodeHolder4, nodeHolderFinal;
     [SerializeField] GameObject nodeHolder1Bot, nodeHolder2Bot, nodeHolder3Bot, nodeHolder4Bot, nodeHolderFinalBot;
+
+    public finalDestination finalWaypoint;
     //List of nodes
-    [SerializeField] List<Transform> flyingNodes1 = new List<Transform>();
-    [SerializeField] List<Transform> flyingNodes2 = new List<Transform>();
-    [SerializeField] List<Transform> flyingNodes3 = new List<Transform>();
-    [SerializeField] List<Transform> flyingNodes4= new List<Transform>();
-    [SerializeField] List<Transform> flyingNodesFinal = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes1 = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes2 = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes3 = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes4= new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodesFinal = new List<Transform>();
     //List of bot node
-    [SerializeField] List<Transform> flyingNodes1Bot = new List<Transform>();
-    [SerializeField] List<Transform> flyingNodes2Bot = new List<Transform>();
-    [SerializeField] List<Transform> flyingNodes3Bot = new List<Transform>();
-    [SerializeField] List<Transform> flyingNodes4Bot = new List<Transform>();
-    [SerializeField] List<Transform> flyingNodesFinalBot = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes1Bot = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes2Bot = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes3Bot = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodes4Bot = new List<Transform>();
+    /*[SerializeField]*/List<Transform> flyingNodesFinalBot = new List<Transform>();
+
+    //Reference ScreeFade Script
+    public int bloomedFlower;
+    float circlingTimer;
+    float lerpSpeed = 0.7f;
+    
+    public ExitScreenFade exitScreen;
+
 
 
 
@@ -45,6 +57,8 @@ public class NavigationStateMachine : MonoBehaviour
     //Awake
     private void Awake()
     {
+        bloomedFlower = exitScreen.numberOfBloomedFlower;
+        anim = GetComponent<Animator>();
         //currentState = STATES.FLYING;
         nodeHolder1 = GameObject.Find("Set1");
         nodeHolder2 = GameObject.Find("Set2");
@@ -102,14 +116,15 @@ public class NavigationStateMachine : MonoBehaviour
         {
             flyingNodesFinalBot.Add(t);
         }
+
+
     }
 
     private void Start()
     {
-        
+        //StartCoroutine(butterflyFSM());
         //Grabbing navmesh agent and animator 
-        anim = GetComponent<Animator>();
-        StartCoroutine(butterflyFSM());
+        
 
         //Assigning Waypoint/Adding them to the list
 
@@ -124,7 +139,32 @@ public class NavigationStateMachine : MonoBehaviour
         StartCoroutine(butterflyFSM());
         
     }
+    
+    private void Update()
+    {
+        if(bloomedFlower <1)
+        {
+            bloomedFlower = exitScreen.numberOfBloomedFlower;
+        }
+        else
+        if ((bloomedFlower >=10) && finalWaypoint == finalDestination.TOP)
+        {
+            currentState = STATES.FINAL;
+            circlingTimer += Time.deltaTime;
+        }
+        else if ((bloomedFlower >=10) && (finalWaypoint == finalDestination.BOTTOM))
+        {
+            currentState=STATES.FINALBot;
+            circlingTimer += Time.deltaTime;
+        }
 
+        if (circlingTimer >= 10)
+        {
+            StopAllCoroutines();
+            gameObject.GetComponent<NavMeshAgent>().enabled = false;
+            transform.position = Vector3.Lerp(transform.position, planet.transform.position, lerpSpeed);
+        }
+    }
     //Scale Enum
     IEnumerator Scale()
     {
@@ -167,6 +207,7 @@ public class NavigationStateMachine : MonoBehaviour
             yield return StartCoroutine(currentState.ToString());
         }
     }
+    
     /*IEnumerator IDLE()
     {
         //Enter the state: run behaviour on state start here
