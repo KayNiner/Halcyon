@@ -64,11 +64,11 @@ public class WateringCan : MonoBehaviour
 
         }
 
-        if( Input.GetKeyDown(KeyCode.M) )
+        if( Input.GetButtonUp(VRButton.One))
         {
             sprayCone.SetActive(true);
         }
-        if (Input.GetKeyUp(KeyCode.M) )
+        if (Input.GetButtonUp(VRButton.One))
         {
             sprayCone.SetActive(false); 
         }

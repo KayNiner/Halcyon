@@ -32,7 +32,7 @@ public class ExitScreenFade :FlowerGrowth
     {
         if (isBloomed == true)
         {
-           Invoke("expEnd", 10);
+            expEnd();
         }
     }
 }
