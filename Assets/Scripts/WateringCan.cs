@@ -21,8 +21,8 @@ public class WateringCan : MonoBehaviour
     public ParticleSystem spray;
     private bool playOnAwake = false;
 
-    [SerializeField]
-    GameObject sprayCone;
+    
+    public GameObject sprayCone;
 
     // Start is called before the first frame update
     void Start()
@@ -37,20 +37,17 @@ public class WateringCan : MonoBehaviour
     void Update()
 
     {
-
         var rightInput = GetInput(VRInputDeviceHand.Right);
         var leftInput = GetInput(VRInputDeviceHand.Left);
-
 
         if (rightInput != null)
         {
             if (rightInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Right Trigger pressed");
-                sprayCone.SetActive(true);
                 spray.Play();
                 sprayAudio.Play();
-            }
+                            }
                 
         }
         if (leftInput != null)
@@ -58,40 +55,26 @@ public class WateringCan : MonoBehaviour
             if (leftInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Left Trigger pressed");
-                sprayCone.SetActive(true);
                 spray.Play();
                 sprayAudio.Play();
 
             }
 
         }
-        if (rightInput == null)
+        if (rightInput != null)
         {
-            if (rightInput.GetButtonUp(VRButton.Trigger))
+            if (rightInput.GetButtonDown(VRButton.One))
             {
-                Debug.Log("Right Trigger Releases");
-                sprayCone.SetActive(false);
+                sprayCone.SetActive(true);
+            }
+            if (rightInput != null)
+            {
+                if (rightInput.GetButtonUp(VRButton.One))
+                {
+                    sprayCone.SetActive(false);
+                }
             }
         }
-        if (leftInput != null)
-        {
-            if (leftInput.GetButtonUp(VRButton.Trigger))    
-            {
-                Debug.Log("Left Trigger Releases");
-                sprayCone.SetActive(false);
-
-            }
-            
-        }
-
-        /*(if ( Input.GetKeyDown(KeyCode.M) )
-        {
-            sprayCone.SetActive(true);
-        }
-        if (Input.GetKeyUp(KeyCode.M) )
-        {
-            sprayCone.SetActive(false); 
-        }*/
     }
     private IVRInputDevice GetInput(VRInputDeviceHand hand)
     {
