@@ -169,7 +169,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator Scale()
     {
         float timer = 0;
-        Debug.Log("Start Scaling");
+        //Debug.Log("Start Scaling");
         while (true) //while the butterfly is growing in size after the flower has bloomed
         {
             while (maxSize > transform.localScale.x)
@@ -261,7 +261,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET1()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set1 path");
+       // Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET1)
@@ -281,7 +281,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET2()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set1 path");
+       // Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET2)
@@ -301,7 +301,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET3()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set1 path");
+       // Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET3)
@@ -320,7 +320,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET4()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set1 path");
+       // Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET4)
@@ -340,7 +340,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator FINAL()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set1 path");
+        //Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.FINAL)
@@ -385,7 +385,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET1Bot()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set1 bot path");
+        //Debug.Log("Butterflies are flying on set1 bot path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET1Bot)
@@ -404,7 +404,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET2Bot()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set2 bot path");
+        //Debug.Log("Butterflies are flying on set2 bot path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET2Bot)
@@ -423,7 +423,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET3Bot()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set3 bot path");
+        //Debug.Log("Butterflies are flying on set3 bot path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET3Bot)
@@ -442,7 +442,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator SET4Bot()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set 4 path");
+       // Debug.Log("Butterflies are flying on set 4 path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.SET4Bot)
@@ -461,7 +461,7 @@ public class NavigationStateMachine : MonoBehaviour
     IEnumerator FINALBot()
     {
         //State Entries
-        Debug.Log("Butterflies are flying on set1 path");
+        //Debug.Log("Butterflies are flying on set1 path");
         anim.SetBool("isFlying", true);
         //Looping the behaviours;
         while (currentState == STATES.FINALBot)
