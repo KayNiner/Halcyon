@@ -42,17 +42,17 @@ public class WateringCan : MonoBehaviour
 
         if (rightInput != null)
         {
-            if (rightInput.GetButtonDown(VRButton.Trigger))
+            if (rightInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Right Trigger pressed");
                 spray.Play();
                 sprayAudio.Play();
-                            }
+             }
                 
         }
         if (leftInput != null)
         {
-            if (leftInput.GetButtonDown(VRButton.Trigger))
+            if (leftInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Left Trigger pressed");
                 spray.Play();
@@ -63,13 +63,13 @@ public class WateringCan : MonoBehaviour
         }
         if (rightInput != null)
         {
-            if (rightInput.GetButtonDown(VRButton.Trigger))
+            if (rightInput.GetButtonDown(VRButton.One))
             {
                 sprayCone.SetActive(true);
             }
             if (rightInput != null)
             {
-                if (rightInput.GetButtonUp(VRButton.Trigger))
+                if (rightInput.GetButtonUp(VRButton.One))
                 {
                     sprayCone.SetActive(false);
                 }
