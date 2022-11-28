@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FlowerGrowth : MonoBehaviour
 {
+    public static int statFlowerBlooms;
     [SerializeField]
     Animator anim;
     public bool isBloomed;
@@ -22,6 +23,8 @@ public class FlowerGrowth : MonoBehaviour
 
     [SerializeField]
     int hitPoint;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +52,7 @@ public class FlowerGrowth : MonoBehaviour
         
     }
 
-    void OnParticleCollision(GameObject other)
+    /*void OnParticleCollision(GameObject other)
     {
         Debug.Log(other.name);
 
@@ -69,7 +72,7 @@ public class FlowerGrowth : MonoBehaviour
         }
         
 
-    }
+    }*/
 
     void OnTriggerEnter()
     {   
@@ -109,6 +112,7 @@ public class FlowerGrowth : MonoBehaviour
         void ButterflySpawn()
     {
         butterflyIndex = Random.Range(0, 1);
-        butterflies[butterflyIndex].SetActive(true); 
+        butterflies[butterflyIndex].SetActive(true);
+        statFlowerBlooms += 1;
     }
 }
