@@ -82,10 +82,4 @@ public class WateringCan : MonoBehaviour
         return hand == VRInputDeviceHand.Left ? device.SecondaryInputDevice : device.PrimaryInputDevice;
     }
 
-    public void Spray()
-    {
-        spray.Play();
-        sprayAudio.Play();
-        sprayCone.SetActive(true);
-    }
 }
