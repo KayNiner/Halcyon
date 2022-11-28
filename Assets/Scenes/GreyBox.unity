@@ -2199,7 +2199,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 630cc4358c3c228498df5946fbe84b33,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.286
+      value: 0.279
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 630cc4358c3c228498df5946fbe84b33,
         type: 3}
@@ -3818,7 +3818,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2910446064487335112, guid: 22276a8657744e04cba8ad0a2caf4195, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 22276a8657744e04cba8ad0a2caf4195, type: 3}
 --- !u!4 &452536857 stripped
 Transform:
@@ -4882,7 +4883,7 @@ PrefabInstance:
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
       propertyPath: CollisionModule.enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9123251808466518703, guid: 24b658f617733c3469dd8223893df349,
         type: 3}
@@ -7787,12 +7788,12 @@ MonoBehaviour:
   OnButtonClicked:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1110655655}
-        m_MethodName: 
+      - m_Target: {fileID: 1110655656}
+        m_MethodName: Spray
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14947,7 +14948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BuildType: 2
-  EditorType: 2
+  EditorType: 1
 --- !u!114 &1436755484
 MonoBehaviour:
   m_ObjectHideFlags: 0
