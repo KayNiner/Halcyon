@@ -208,7 +208,7 @@ PrefabInstance:
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
       propertyPath: currentState
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
@@ -1410,7 +1410,7 @@ PrefabInstance:
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
       propertyPath: currentState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
@@ -1616,7 +1616,7 @@ PrefabInstance:
     - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
         type: 3}
       propertyPath: currentState
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
         type: 3}
@@ -1643,6 +1643,11 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 1818906104}
+    - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27bfe378911f28e4e80e0cb169ea24a2, type: 3}
 --- !u!1001 &155781281
@@ -2832,7 +2837,7 @@ PrefabInstance:
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
       propertyPath: currentState
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7045975087980335626, guid: 5f5d5af7589ada344a8838bcf0495c45,
         type: 3}
@@ -3197,7 +3202,7 @@ Transform:
   - {fileID: 1076790770}
   - {fileID: 272546536}
   m_Father: {fileID: 1436755485}
-  m_RootOrder: 17
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -188.74599, z: 0}
 --- !u!23 &370000750
 MeshRenderer:
@@ -4071,6 +4076,16 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 1818906104}
+    - target: {fileID: 1217047285046920488, guid: 5974fa2f2a2854b469b249e2f4f9c832,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217047285046920488, guid: 5974fa2f2a2854b469b249e2f4f9c832,
+        type: 3}
+      propertyPath: currentState
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5974fa2f2a2854b469b249e2f4f9c832, type: 3}
 --- !u!1001 &545440871
@@ -5435,7 +5450,7 @@ PrefabInstance:
     - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
         type: 3}
       propertyPath: currentState
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
         type: 3}
@@ -5687,7 +5702,7 @@ PrefabInstance:
     - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
         type: 3}
       propertyPath: currentState
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8332452290930729788, guid: 2c89c361894acd0468a314468556dbbb,
         type: 3}
@@ -7767,7 +7782,7 @@ PrefabInstance:
     - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
       propertyPath: currentState
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
@@ -13698,6 +13713,11 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 1818906104}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61fb428a7bd3ae42ac4754ac8d37de9, type: 3}
 --- !u!4 &1265213931 stripped
@@ -13899,6 +13919,11 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 1818906104}
+    - target: {fileID: 7644849874608483465, guid: d61fb428a7bd3ae42ac4754ac8d37de9,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d61fb428a7bd3ae42ac4754ac8d37de9, type: 3}
 --- !u!1001 &1335484309
@@ -14594,11 +14619,11 @@ Transform:
   - {fileID: 32047164}
   - {fileID: 828286810}
   - {fileID: 388820677}
+  - {fileID: 370000749}
   - {fileID: 576065073}
   - {fileID: 664652734}
   - {fileID: 631995459}
   - {fileID: 1533620942}
-  - {fileID: 370000749}
   - {fileID: 1376924186}
   - {fileID: 1818906105}
   - {fileID: 161227337}
@@ -15081,7 +15106,7 @@ PrefabInstance:
     - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
       propertyPath: currentState
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
@@ -16056,7 +16081,7 @@ PrefabInstance:
     - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
       propertyPath: currentState
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6017701839836243204, guid: a5ba737080bf760419cbf31deb19e71e,
         type: 3}
@@ -17961,6 +17986,16 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 1818906104}
+    - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
+        type: 3}
+      propertyPath: currentState
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650247584001441667, guid: 27bfe378911f28e4e80e0cb169ea24a2,
+        type: 3}
+      propertyPath: finalWaypoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27bfe378911f28e4e80e0cb169ea24a2, type: 3}
 --- !u!1 &1917850227
