@@ -32,7 +32,7 @@ public class ExitScreenFade :FlowerGrowth
     {
         if (numberOfBloomedFlower >=10)
         {
-           Invoke("expEnd", 20);
+           Invoke("expEnd", 25);
         }
 
         foreach(GameObject gameObject in flowers)
