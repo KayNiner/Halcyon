@@ -27,7 +27,7 @@ public class WateringCan : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spray = GetComponentInChildren<ParticleSystem>();
+        spray = GetComponent<ParticleSystem>();
         sprayAudio = GetComponent<AudioSource>();
         sprayCone.SetActive(false);
 
@@ -42,7 +42,7 @@ public class WateringCan : MonoBehaviour
 
         if (rightInput != null)
         {
-            if (rightInput.GetButtonDown(VRButton.One) || Input.GetMouseButtonDown(0))
+            if (rightInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Right Trigger pressed");
                 spray.Play();
