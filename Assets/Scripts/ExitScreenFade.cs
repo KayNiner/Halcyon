@@ -39,7 +39,8 @@ public class ExitScreenFade :FlowerGrowth
         {
             if (gameObject.GetComponent<Animator>().GetBool("isBloomed"))
             {
-                numberOfBloomedFlower+=1;
+                numberOfBloomedFlower+= 1;
+                flowers.Remove(gameObject); 
             }
 
         }

@@ -42,7 +42,7 @@ public class WateringCan : MonoBehaviour
 
         if (rightInput != null)
         {
-            if (rightInput.GetButtonDown(VRButton.One) || Input.GetMouseButtonDown(0))
+            if (rightInput.GetButtonDown(VRButton.One))
             {
                 Debug.Log("Right Trigger pressed");
                 spray.Play();
@@ -82,10 +82,4 @@ public class WateringCan : MonoBehaviour
         return hand == VRInputDeviceHand.Left ? device.SecondaryInputDevice : device.PrimaryInputDevice;
     }
 
-    public void Spray()
-    {
-        spray.Play();
-        sprayAudio.Play();
-        sprayCone.SetActive(true);
-    }
 }
