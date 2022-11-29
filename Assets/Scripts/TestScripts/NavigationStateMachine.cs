@@ -142,11 +142,9 @@ public class NavigationStateMachine : MonoBehaviour
     
     private void Update()
     {
-        if(bloomedFlower <1)
-        {
-            bloomedFlower = exitScreen.numberOfBloomedFlower;
-        }
-        else
+    
+        bloomedFlower = exitScreen.numberOfBloomedFlower;
+      
         if ((bloomedFlower >=10) && finalWaypoint == finalDestination.TOP)
         {
             currentState = STATES.FINAL;

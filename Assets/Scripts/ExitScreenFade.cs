@@ -30,19 +30,31 @@ public class ExitScreenFade :FlowerGrowth
     // Update is called once per frame
     void Update()
     {
-        if (numberOfBloomedFlower >=10)
+        numberOfBloomedFlower = statFlowerBlooms;
+        if (numberOfBloomedFlower >= 10)
         {
-           Invoke("expEnd", 20);
+            Invoke("expEnd", 30);
         }
 
-        foreach(GameObject gameObject in flowers)
+        /*foreach(GameObject gameObject in flowers)
         {
             if (gameObject.GetComponent<Animator>().GetBool("isBloomed"))
             {
-                numberOfBloomedFlower+=1;
+                numberOfBloomedFlower+= 1;
+
+                return;
             }
 
-        }
+        }*/
+
+        /*for (int i = flowers.Count - 1; i >= 0; i--)
+        {
+            if (flowers[i].GetComponent<Animator>().GetBool("isBloomed"))
+            {
+                numberOfBloomedFlower += 1;
+
+            }
+        }*/
     }
 }
 
