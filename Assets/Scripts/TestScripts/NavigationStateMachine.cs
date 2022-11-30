@@ -156,7 +156,7 @@ public class NavigationStateMachine : MonoBehaviour
             circlingTimer += Time.deltaTime;
         }
 
-        if (circlingTimer >= 17)
+        if (circlingTimer >= 15)
         {
             StopAllCoroutines();
             gameObject.GetComponent<NavMeshAgent>().enabled = false;
