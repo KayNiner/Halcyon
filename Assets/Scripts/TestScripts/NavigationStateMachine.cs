@@ -22,8 +22,8 @@ public class NavigationStateMachine : MonoBehaviour
     [SerializeField] int currentNode = 0;
 
     //node Holder
-    [SerializeField] GameObject nodeHolder1, nodeHolder2, nodeHolder3, nodeHolder4, nodeHolderFinal;
-    [SerializeField] GameObject nodeHolder1Bot, nodeHolder2Bot, nodeHolder3Bot, nodeHolder4Bot, nodeHolderFinalBot;
+    [SerializeField] public GameObject nodeHolder1, nodeHolder2, nodeHolder3, nodeHolder4, nodeHolderFinal;
+    [SerializeField] public GameObject nodeHolder1Bot, nodeHolder2Bot, nodeHolder3Bot, nodeHolder4Bot, nodeHolderFinalBot;
 
     public finalDestination finalWaypoint;
     //List of nodes
@@ -60,7 +60,7 @@ public class NavigationStateMachine : MonoBehaviour
         bloomedFlower = exitScreen.numberOfBloomedFlower;
         anim = GetComponent<Animator>();
         //currentState = STATES.FLYING;
-        nodeHolder1 = GameObject.Find("Set1");
+        /*nodeHolder1 = GameObject.Find("Set1");
         nodeHolder2 = GameObject.Find("Set2");
         nodeHolder3 = GameObject.Find("Set3");
         nodeHolder4 = GameObject.Find("Set4");
@@ -70,7 +70,7 @@ public class NavigationStateMachine : MonoBehaviour
         nodeHolder2Bot = GameObject.Find("Set2_bot");
         nodeHolder3Bot = GameObject.Find("Set3_bot");
         nodeHolder4Bot = GameObject.Find("Set4_bot");
-        nodeHolderFinalBot = GameObject.Find("Final_bot");
+        nodeHolderFinalBot = GameObject.Find("Final_bot");*/
 
         agent = GetComponent<NavMeshAgent>();
         //Flying node top
